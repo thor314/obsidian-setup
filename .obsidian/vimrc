@@ -1,0 +1,62 @@
+" generally refer to: https://github.com/esm7/obsidian-vimrc-support
+" To test file, write file and run "reload app without saving"
+" 
+" To use an obsidian command (see back, forward example):
+" - Use Ctrl+Shift+I to open the dev console
+" - reload and type :obcommand. The names are now in the Console (2nd tab).
+" - note, can't rebind exmap-obmap commands with map
+" Also execute codemirror commands with cmcommand, js with jscommand.
+"
+" Note about `surround`: as of 2022-05-20, surround does not work, and is janky
+" anyhow, but there's a fix coming, eventually, maybe.
+
+" Reminder to keep C-u, C-d unbound in keybinds so I can go up and down
+
+" Yank to system clipboard https://forum.obsidian.md/t/how-to-copy-with-vim-mode/3881
+set clipboard=unnamed
+
+" alt escapes if I forget to escape
+imap jj <Esc> 
+imap kk <Esc>
+
+" Since C-o is taken, use the following for go-back/forward.
+" This mapping repeats a mapping in the in-app hotkeys menu for demonstration; the in-app menu overwrites mappings here.
+exmap back obcommand app:go-back
+nmap <A-,> :back
+exmap forward obcommand app:go-forward
+nmap <A-.> :forward
+
+" enable select all with C-a
+unmap <C-a>
+
+" be able to type gL or dL to delete rest of line
+nmap H ^
+omap H ^
+nmap L $
+omap L $
+
+" transpose, shift case
+nmap t xhhpll 
+nmap T ~ 
+
+" free up C-r, set redo to something memorable
+nmap U <C-r> 
+
+" Experiment with leader mapping, set '-' as leader
+nmap - <leader>
+nmap <leader>j 4j
+nmap <leader>k 4k
+
+" Broke
+" exmap wiki surround [[ ]]
+" map s[ :wiki
+" exmap parens surround ( )
+" map s( :parens
+" exmap quote surround \" \"
+" vmap s" :quote
+" " paste into pastes text into buffer, not sure why it's good, but try it when
+" " surround un-breaks
+" map <A-v> :pasteinto
+
+""" Trash
+" set nohlsearch " nmap <F9> :nohl - useless

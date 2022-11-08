@@ -1,0 +1,10 @@
+{
+  "accentColor": "#7a32d2",
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Fira Code",
+  "textFontFamily": "Atkinson Hyperlegible,Karla Tamil Upright,Karla",
+  "interfaceFontFamily": "Atkinson Hyperlegible,Karla Tamil Inclined",
+  "theme": "obsidian",
+  "nativeMenus": false,
+  "baseFontSize": 14
+}

@@ -1,0 +1,1038 @@
+{
+  "hotkeys": [
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "j",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-languagetool-plugin:ltcheck-text"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "f",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:format-table"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "i",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:insert-column"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "a",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:left-align-column"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "a",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:center-align-column"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "a",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "r",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:right-align-column"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "m",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:move-column-left"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "m",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:move-column-right"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "m",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "k",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:move-row-up"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "m",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "j",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:move-row-down"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "d",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:delete-column"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "d",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "r",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:delete-row"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "s",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "a",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:sort-rows-ascending"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "s",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "d",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:sort-rows-descending"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "table-editor-obsidian:table-control-bar"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "editor:fold-more"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "k",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "editor:fold-less"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "j",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "editor:fold-more"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "1",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "creases:toggle-fold-heading-level-1"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "2",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "creases:toggle-fold-heading-level-2"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "3",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "creases:toggle-fold-heading-level-3"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "4",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "creases:toggle-fold-heading-level-4"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "6",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "creases:toggle-fold-heading-level-6"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "editor:fold-less"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "i",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-charts:creation-helper"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-charts:chart-from-table-column"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "r",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-charts:chart-from-table-row"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "p",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-charts:chart-to-svg"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-languagetool-plugin:ltcheck-text"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-languagetool-plugin:ltautocheck-text"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "C",
+          "shift": true,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-languagetool-plugin:ltclear"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "c",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "n",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-charts:creation-helper"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "t",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "obsidian-languagetool-plugin:ltautocheck-text"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "w",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "s",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "workspaces:save-and-load"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "w",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "o",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "workspaces:open-modal"
+    },
+    {
+      "sequence": [
+        {
+          "key": " ",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "w",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "w",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "darlal-switcher-plus:switcher-plus:open-workspaces"
+    }
+  ]
+}

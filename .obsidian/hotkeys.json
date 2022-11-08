@@ -1,0 +1,554 @@
+{
+  "editor:insert-wikilink": [],
+  "obsidian-footnotes:insert-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-advanced-new-file:advanced-new-file-new-pane": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "url-into-selection:paste-url-into-selection": [],
+  "editor:insert-embed": [],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "switcher:open": [],
+  "darlal-switcher-plus:switcher-plus:open-commands": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-headings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-symbols": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-related-items": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "editor:save-file": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-toggle-heading-reverse": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-toggle-heading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-asterisk-bold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:toggle-bold": [],
+  "obsidian-smarter-md-hotkeys:smarter-upper-lower": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-inline-code": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-comments": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:toggle-comments": [],
+  "obsidian-smarter-md-hotkeys:smarter-curly-brackets": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "obsidian-smarter-md-hotkeys:smarter-delete-current-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-delete": [],
+  "obsidian-smarter-md-hotkeys:smarter-quotation-marks": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-wikilink-heading": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "]"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-highlight": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-asterisk-italics": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-md-link": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:toggle-italics": [],
+  "obsidian-smarter-md-hotkeys:smarter-math": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-round-brackets": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "9"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "0"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-single-quotation-marks": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "'"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-square-brackets": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:smarter-strikethrough": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "`"
+    }
+  ],
+  "obsidian-smarter-md-hotkeys:toggle-readable-line-length": [],
+  "obsidian-smarter-md-hotkeys:smarter-wikilink": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-workspaces": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ],
+  "obsidian-plugin-toc:create-toc": [],
+  "workspace:toggle-stacked-tabs": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "editor:toggle-code": [],
+  "templater-obsidian:templates/journal.md": [],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
+  "workspace:move-to-new-window": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:replace-in-file-templater": [],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ],
+  "window:zoom-in": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
+  ],
+  "window:zoom-out": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
+    }
+  ],
+  "editor:toggle-spellcheck": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
+  ],
+  "templater-obsidian:insert-templater": [],
+  "app:reload": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ","
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "."
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:templates/journal.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F12"
+    }
+  ],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "periodic-notes:next-daily-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F12"
+    }
+  ],
+  "periodic-notes:prev-daily-note": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F12"
+    }
+  ],
+  "tag-pane:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "obsidian-dictionary-plugin:dictionary-open-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-auto-link-title:auto-link-title-paste": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "editor:insert-link": [],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "omnisearch:show-modal-infile": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-search": [],
+  "hotkey-helper:browse-plugins": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "hotkey-helper:open-hotkeys": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "hotkey-helper:open-settings": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": ","
+    }
+  ],
+  "obsidian-completr:completr-open-suggestion-popup": [],
+  "obsidian-completr:completr-bypass-tab-key": [],
+  "obsidian-completr:completr-bypass-enter-key": [],
+  "obsidian-completr:completr-jump-to-next-snippet-placeholder": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "copy-as-latex:copy-as-latex": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ],
+  "hotkey-helper:open-plugins": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": ","
+    }
+  ],
+  "juggl:open-vis-global": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
+    }
+  ],
+  "juggl:show-nodes-pane": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "juggl:show-style-pane": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "juggl:open-vis": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ],
+  "metaedit:metaEditRun": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ]
+}

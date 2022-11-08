@@ -1,0 +1,29 @@
+{
+  "promptDelete": false,
+  "vimMode": true,
+  "tabSize": 2,
+  "useTab": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "media",
+  "userIgnoreFilters": [
+    "media/"
+  ],
+  "readableLineLength": true,
+  "spellcheckDictionary": [
+    " f",
+    " f",
+    " keybind",
+    " keybin",
+    "keybind",
+    "keybind",
+    "templating",
+    "fn",
+    "keybinds",
+    "keybinds",
+    "plating fi"
+  ],
+  "autoPairMarkdown": false
+}

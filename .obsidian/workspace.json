@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "5c32207dc2903ecf",
+    "type": "split",
+    "children": [
+      {
+        "id": "de50d7f507cff37c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0112711fc2b403a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Getting Started with Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba5c89ee501b0391",
+    "type": "split",
+    "children": [
+      {
+        "id": "219ab63c579082fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1480e2f2f67d11cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f414bfe7c5145547",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "621f5e44399397b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 202.5110321044922
+  },
+  "right": {
+    "id": "fe177f0acf67a7c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1926d469c6065fed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2422ab14f30cdc44",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Getting Started with Obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a42d182d72c51ff9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fcdfa66c3edb4fe1",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f4a21b64c4fa247",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "1f35f8b57e8d58dd",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c0bc03a5cef096b",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "34f5eb5c5a9a4f53",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "1623a14b9bcb9151",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "74dc45970caf56d9",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "f10bfb5cbcf0093b",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f10bfb5cbcf0093b",
+  "lastOpenFiles": [
+    "MacOS.md",
+    "Untitled.md",
+    "dict-thesaurus (en-US).md",
+    "templates/journal.md",
+    "2022-11-06.md"
+  ]
+}
