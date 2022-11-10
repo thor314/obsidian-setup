@@ -14,7 +14,6 @@
   "obsidian-charts",
   "periodic-notes",
   "darlal-switcher-plus",
-  "obsidian-scroll-offset",
   "obsidian-show-file-path",
   "obsidian-smarter-md-hotkeys",
   "obsidian-plugin-toc",
@@ -45,5 +44,9 @@
   "juggl",
   "quickadd",
   "workspaces-plus",
-  "metaedit"
+  "metaedit",
+  "key-promoter",
+  "obsidian-scroll-offset",
+  "obsidian-rollover-daily-todos",
+  "multi-column-markdown"
 ]

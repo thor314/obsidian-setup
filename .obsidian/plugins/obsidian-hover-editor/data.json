@@ -10,5 +10,5 @@
   "initialWidth": "400px",
   "showViewHeader": false,
   "imageZoom": true,
-  "hoverEmbeds": true
+  "hoverEmbeds": false
 }

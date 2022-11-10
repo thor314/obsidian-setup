@@ -1,5 +1,195 @@
 {
-  "choices": [],
-  "macros": [],
+  "choices": [
+    {
+      "id": "706f5918-d241-4531-9fc4-d0e703ab1db5",
+      "name": "capture journal entry",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "periodic/journal/j-{{DATE:gggg-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "templates/journal.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "## {{DATE:HH:mm}}\n{{NAME}} "
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5db51b99-dc85-427f-8316-11187ff5a073",
+      "name": "capture todo to journal",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "periodic/journal/j-{{DATE:gggg-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "templates/j-{{date}}.md"
+      },
+      "format": {
+        "enabled": false,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## 📜 Tasks 📜 ",
+        "insertAtEnd": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "a39afe6c-b8d6-40be-9cbe-2607e7296f8f",
+      "name": "create new reference note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/reference.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "r-{{NAME}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "notes/reference"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "f859dee2-36c9-46f8-90f3-09c9100983cd",
+      "name": "create web note and add to sample web reference",
+      "type": "Macro",
+      "command": true,
+      "macroId": "f103bde6-f2b2-49ab-8ec6-9f1e04245c8e"
+    }
+  ],
+  "macros": [
+    {
+      "name": "web-macro",
+      "id": "f103bde6-f2b2-49ab-8ec6-9f1e04245c8e",
+      "commands": [
+        {
+          "name": "capture new web note",
+          "type": "NestedChoice",
+          "id": "926933aa-c5af-40d0-9c3c-2f469f64352c",
+          "choice": {
+            "id": "22c0c4dd-33ac-4c39-a412-dd94222cd10c",
+            "name": "capture new web note",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "notes/web/n-{{VALUE:filename}}.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": true,
+              "template": "templates/quickadd-note-web.md"
+            },
+            "format": {
+              "enabled": true,
+              "format": "#topic/<% tp.file.cursor(1) %>\n# n-{{VALUE:filename}}\nLink: <% tp.system.clipboard() %>\n<% tp.file.cursor(2) %>\n"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Capture entry to Sample Web Reference ",
+          "type": "NestedChoice",
+          "id": "94a369d3-32b6-4532-8693-b71b66b97ea4",
+          "choice": {
+            "id": "cd425206-5700-4c8b-9ae1-419e96fedb35",
+            "name": "Capture entry to Sample Web Reference ",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "notes/reference/r-Sample Web Reference.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [[n-{{VALUE:filename}}]]; Link: <% tp.system.clipboard() %>\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# r-Sample Web Reference",
+              "insertAtEnd": false,
+              "createIfNotFound": true,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": false
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line"
 }

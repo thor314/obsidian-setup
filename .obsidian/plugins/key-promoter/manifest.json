@@ -1,0 +1,10 @@
+{
+	"id": "key-promoter",
+	"name": "Key Promoter",
+	"version": "1.2.2",
+	"minAppVersion": "0.9.12",
+	"description": "Learn keyboard shortcuts by showing them when using the mouse",
+	"author": "Johannes Theiner",
+	"authorUrl": "https://github.com/joethei",
+	"isDesktopOnly": false
+}

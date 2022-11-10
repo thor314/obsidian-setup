@@ -5,7 +5,7 @@
     ":"
   ],
   "ignoredFiles": {},
-  "ignoreRegex": "",
+  "ignoreRegex": "templates",
   "useFileOpenHook": true,
   "useFileSaveHook": true
 }

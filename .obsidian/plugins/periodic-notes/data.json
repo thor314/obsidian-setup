@@ -4,7 +4,7 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "j-YYYY-MM-DD",
-    "template": "templates/journal.md",
+    "template": "templates/j-{{date}}.md",
     "folder": "periodic/journal",
     "enabled": true
   },

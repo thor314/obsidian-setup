@@ -23,7 +23,24 @@
     "fn",
     "keybinds",
     "keybinds",
-    "plating fi"
+    "plating fi",
+    "thorck",
+    "mindmap",
+    "AFAICT",
+    "replacer",
+    "multichoice",
+    "javascript",
+    "Juggl",
+    "MetaEdit",
+    "Completr",
+    "clicky",
+    "Zotero",
+    "janky",
+    "frontmatter",
+    "Templater",
+    "filesystem",
+    "Breadcrumbs"
   ],
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "showInlineTitle": false
 }

@@ -295,7 +295,15 @@
       "key": "N"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
   "templater-obsidian:replace-in-file-templater": [],
   "workspace:split-vertical": [
     {
@@ -363,10 +371,9 @@
   "templater-obsidian:jump-to-next-cursor-location": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Alt"
       ],
-      "key": "J"
+      "key": ";"
     }
   ],
   "obsidian-hotkeys-for-specific-files:templates/journal.md": [
@@ -549,6 +556,49 @@
         "Alt"
       ],
       "key": "M"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "obsidian-languagetool-plugin:ltautocheck-text": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "quickadd:choice:706f5918-d241-4531-9fc4-d0e703ab1db5": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:templates/j-{{date}}.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F12"
+    }
+  ],
+  "obsidian-rollover-daily-todos:obsidian-rollover-daily-todos-rollover": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "quickadd:choice:5db51b99-dc85-427f-8316-11187ff5a073": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "-"
     }
   ]
 }

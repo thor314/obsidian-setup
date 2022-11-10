@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "de50d7f507cff37c",
+        "id": "a7e85338fcdaa92e",
         "type": "tabs",
         "children": [
           {
-            "id": "e0112711fc2b403a",
+            "id": "e347c15efe453b6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,25 @@
               }
             }
           }
-        ],
-        "stacked": true
+        ]
+      },
+      {
+        "id": "dc44a8a2ee7b5fbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f03e84a8f63f26d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Getting Started with Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -49,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#topic/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,21 +189,34 @@
               "type": "BC-matrix",
               "state": {}
             }
+          },
+          {
+            "id": "93d44ef40d72eac8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "f10bfb5cbcf0093b",
+  "active": "e347c15efe453b6e",
   "lastOpenFiles": [
-    "MacOS.md",
-    "Untitled.md",
-    "dict-thesaurus (en-US).md",
+    "topic .md",
+    "Getting Started with Obsidian.md",
+    "media/Pasted image 20221109130405.png",
     "templates/journal.md",
-    "2022-11-06.md"
+    "README.md",
+    "Untitled.md",
+    "test.md",
+    "templates/reference.md",
+    "Untitled 1.md",
+    "templates/quickadd-note-web.md"
   ]
 }
