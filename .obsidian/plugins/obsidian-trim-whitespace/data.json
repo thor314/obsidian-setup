@@ -1,0 +1,14 @@
+{
+  "AutoTrimDocument": true,
+  "AutoTrimTimeout": 10,
+  "SkipCodeBlocks": false,
+  "TrimTrailingSpaces": true,
+  "TrimLeadingSpaces": false,
+  "TrimMultipleSpaces": false,
+  "TrimTrailingTabs": true,
+  "TrimLeadingTabs": false,
+  "TrimMultipleTabs": false,
+  "TrimTrailingLines": true,
+  "TrimLeadingLines": false,
+  "TrimMultipleLines": false
+}
