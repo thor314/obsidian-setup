@@ -1,20 +1,24 @@
+---
+creation-date: 2022-11-06 16:03
+---
 # Getting Started with Obsidian
 ```toc
 ```
-*The links to plugins in this page aren't broken. This document is designed to be read from within an Obsidian Client.*
-Obsidian is a pretty stellar note-taking application. It's supports pretty much every Markdown feature you might expect, is free-to-use, heavily customizable and extensible with an active contributor community, and lives on the user local file system.
+*The links to plugins in this page aren't broken. This document is designed to be read from within an Obsidian Client. Clone the [repo](https://github.com/thor314/obsidian-setup) or copy paste the [document](https://raw.githubusercontent.com/thor314/obsidian-setup/main/Getting%20Started%20with%20Obsidian.md) into your vault.*
 
-Obsidian does a lot of things right. A flexible Markdown application can be pretty handy, but a bit overwhelming to learn to use, much less set up, especially when that means combing through and setting up dozens or even hundreds of plugins. I've been an Obsidian user for about a year, and have heavily customized it (meaning I've installed other people's installed plugins) to suit my own needs for knowledge base building journaling, self-organization, and more. 
+Obsidian is a note-taking application. It's supports pretty much every Markdown feature you might want, is free-to-use, heavily customizable and extensible with an active contributor community, and lives on the user local file system.
 
-This year, I left my job to go full time on building [Uncloak](https://uncloak.org), a community-wiki primarily focusing on making cryptography engineering and zero knowledge cryptography, with an aim to make cryptography accessible for everyone. Obsidian complements this by offering a flexible, extensible substrate for building and hosting our knowledge graph.
+Obsidian does a lot of things right. A flexible, customizeable Markdown tool like Obsidian can be pretty handy, but a bit overwhelming to set up. Especially when that means combing through and setting up dozens or even hundreds of plugins. I've been an Obsidian user for about a year, and have heavily customized it to suit my own needs for knowledge base building journaling, self-organization, and more.
 
-To contributors who have been directed at this post: while Uncloak is built with Obsidian, every page is pure Markdown; you don't have to follow this post to contribute. But I want to recommend Obsidian as a tool, for those who would like to use it. This post is aimed at those who are interested in getting started with Obsidian.  We'll go over Obsidian in three parts. 
+Some context on why I care: this year, I left my job to go full time on building [Uncloak](https://uncloak.org), a community-wiki primarily focusing cryptography engineering and zero knowledge cryptography. We would like to make cryptography accessible for everyone. We're building our wiki with Obsidian Publish. The Obsidian Publish site enables offers flexible tools for building and hosting our knowledge graph. To Uncloak contributors who have been stumbled upon this post: while Uncloak is built with Obsidian Publish, every page is pure Markdown; you don't have to use Obsidian post to contribute. But I want to recommend Obsidian as a tool for those who would like to use it.
 
-In **Part One**, we'll set up some sane settings and name a few useful plugins. I've set up a sample Obsidian directory to go along with this post, containing most of the setup choices I describe here. You may [clone it](https://github.com/thor314/obsidian-setup) to try it out. If you'd like to steal some or all of the settings, copy the `.obsidian*` folder. If you don't get too bogged down in the recommended community plugins, Part One serves as a reasonable 10-30 minute introduction to setting up Obsidian.
+This post is aimed at Obsidian users **of all levels**, from total beginners to total pros. We'll go over Obsidian in three parts.
+
+In **Part One**, we'll address initial settings and name a few useful plugins. I've set up a sample Obsidian directory to go along with this post, containing most of the setup choices I describe here. You may [clone it](https://github.com/thor314/obsidian-setup) to try it out. If you'd like to steal some or all of the settings, copy the `.obsidian*` folder. If you don't get too bogged down in the recommended community plugins, Part One serves as a reasonable 10-30 minute introduction to setting up Obsidian.
 
 In **Part Two**, we'll talk about how to use Obsidian for a few different workflows: knowledge-basing, journaling, and self-organization; generally, how to best set Obsidian up for your purposes. This section aims to be a guided tour through ways that people use Obsidian, with a guided tour of how you might set Obsidian up for your own uses.
 
-Finally, in **Part Three**, I'll describe every plugin I've looked at in the last year, and how you might use them. I've looked at a lot. In preparation for this post, I looked at a lot more. Trying out and setting up plugins can be time intensive; my goal here is to list what's out there and help you choose what you want, getting through your set-up quicker. If you have plugins you enjoy, feel free to tell me about them. Please don't be offended if you wrote a plugin that I didn't recommend. This post is intentionally opinionated: my opinions may not match yours.
+Finally, in **Part Three**, I give a listed reference of every plugin I've looked at in the last year, and how you might use them. I've looked at a lot of plugins. In preparation for this post, I looked at a lot more. Trying out and setting up plugins can be time intensive; my goal here is to list what's out there and help you choose what you want, getting through your set-up quicker. If you have plugins you enjoy that I didn't mention, feel free to tell me about them. This post is intentionally opinionated: my opinions and needs may not match yours, though I try to paint with as broad a brush as possible.
 
 **A note on security**: I weakly claim that none of the community plugins I install or recommend are out to pwn your system, but I could be wrong. If you installed Obsidian unsandboxed, your system is more vulnerable to malicious plugin authors. A way to avoid this is to either:
 - Audit every plugin and update yourself. Auditing plugins is time-intensive, but is the only way to be absolutely confident in your system security.
@@ -22,9 +26,9 @@ Finally, in **Part Three**, I'll describe every plugin I've looked at in the las
 - Use a sandboxed installation, which prevents Obsidian from poking your system except in very constrained ways, but will prevent plugins like *Obsidian Git* from being able to poke your system for automated git backups.
 - Live with risk. This isn't necessarily bad, just know that you might not want to keep anything too valuable on a machine with a larger attack surface.
 
-If you're just getting started with Obsidian, I don't recommend you try reading this post in one sitting. Actually, I don't recommend anyone try to read this 9000 word post in one sitting. You may want to take several passes over each section, while you set up Obsidian the way you like it, and figure out how you want to use the tool. 
+This post is more like three posts. Read it how you'd like, but the post is intended as a guide as well as a reference; I aimed to cover everything I learned in a year, and it wouldn't fit in less than 9000 words. Take your time learning to use the tool, have a life outside of setting up Obsidian.
 
-For questions, feel free to [message me on Twitter](https://twitter.com/cryptograthor), shoot me an email at thorck a-squiggle pm dot me, or try the [Obsidian User Forum](https://forum.obsidian.md/).
+For questions, feel free to [message me on Twitter](https://twitter.com/cryptograthor), shoot me an email at thorck a-squiggle pm dot me, or try the [Obsidian User Forum](https://forum.obsidian.md/). I'd love to know if you have suggestions for how to improve the post, or feedback on what was useful and what wasn't.
 
 ## Part One: Setting up
 ### Installin Stuff
@@ -47,53 +51,54 @@ snap install --dangerous --classic obsidian_*.snap
 ```
 
 ### Getting started
-Open the app, and make a directory, as directed by the GUI. Note that you can manipulate files via the terminal as well. Make a new file, and play with the buttons on the left sidebar. The most useful hotkeys are is **Ctrl-P**, bringing up the Command Palette and **Ctrl-,** for settings. 
+Open the app, and make a directory, as directed by the GUI. Note that you can manipulate files via the terminal as well. Make a new file, and play with the buttons on the left sidebar. The most useful hotkeys are is **Ctrl-P**, bringing up the Command Palette and **Ctrl-,** for settings.
 
 After a quick walk through some convenient settings options, we'll walk through some workflows to make the most of Obsidian.
 
- I won't go through every setting, just a few important ones. Where relevant, I will link to community plugins I recommend. On your first read through, I might recommend skipping the plugin links until a second pass, as it's easy to spend an hour rabbitholing on a plugin. I also list all my plugins recommendations and how to set them up at the bottom of this article.
+I won't go through every setting, just a few important ones. Where relevant, I will link to community plugins I recommend. On your first read through, I might recommend skipping the plugin links until a second pass, as it's easy to spend an hour rabbitholing on a plugin. I also list all my plugins recommendations and how to set them up at the bottom of this article.
 
 #### Some Sane Defaults
-- Editor:
+- **Editor**:
   - spellcheck, overlaps with [LanguageTool](obsidian://show-plugin?id=obsidian-languagetool-plugin), which also checks grammar. I toggle to enable checks when working on a page I intend to publish.
   - 2-space indents, for nicely laid out lists (like this one)
   - vim mode - configurable via the [vimrc](obsidian://show-plugin?id=obsidian-vimrc-support) plugin, which we will return to shortly;
-- Files and Links:
+- **Files and Links**:
   - Move deleted files to Obsidian `.trash` folder instead of deleting, makes for easy recovery
   - Automatically update internal links - Obsidian can track links between files, and update links when you change title names.
   - Default location for new attachments set to *In the folder specified below: `media`*; storing all media in one location is convenient for avoiding clutter in your directories. You may want to exclude your media folder from searches.
-- Appearance: About the left and right bars: the bars are often useful, but tend to be in the way when working. I recommend setting a hotkey to toggle them (I've set F3 and F4 here).
+- **Appearance:** About the left and right bars: the bars are often useful, but tend to be in the way when working. I recommend setting a hotkey to toggle them (I've set F3 and F4 here).
   - Minimal is a popular theme with a [plugin to tweak](obsidian://show-plugin?id=obsidian-minimal-settings) elements of the appearance, like coloring headers differently. I find that the Atom and Catpuccin theme tweaks in the prior plugin make Obsidian feel warmer. [Hider](https://obsidian.md/plugins?id=obsidian-hider) is also useful for hiding unwanted UI elements.
   - The native fonts are good, but I like custom fonts. I use [Fira Code](https://github.com/tonsky/FiraCode) for a monospace font, and I use [Karla](https://fonts.google.com/specimen/Karla) and [Atkinson](https://brailleinstitute.org/freefont) for system and text fonts. If you want to font-dive, check out [nerdfonts](https://www.nerdfonts.com/). You may have to log out and log back in before Obsidian recognizes your fonts.[^1]
-- Hotkeys - There's a lot to unpack here, but the default keybinds are basically okay. You can look at [hotkey plugins](https://obsidian.md/plugins?search=hotkeys) if you'd like; [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) is quite good. I'm a fan of [Chorded keys](obsidian://show-plugin?id=leader-hotkeys-obsidian) for grouping related keybinds, which helps with remembering where I bound a key.
+- **Hotkeys** - There's a lot to unpack here, but the default keybinds are basically okay. You can look at [hotkey plugins](https://obsidian.md/plugins?search=hotkeys) if you'd like; [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) is quite good. I'm a fan of [Chorded keys](obsidian://show-plugin?id=leader-hotkeys-obsidian) for grouping related keybinds, which helps with remembering where I bound a key.
 
 #### Core Plugins
   We'll run through the plugins Obsidian ships with. Some are good, others are outclassed by existing community plugins.
   - Audio recorder - Record audio and save in a note; I don't use this.
   - Backlinks - Show what other notes link to this note; great for knowledge-graphing
-  - Command Palette - Good. 
+  - Command Palette - Good.
   - Daily Notes - If you intend to journal but not do weekly/monthly/quarterly/yearly notes, Daily notes is good enough. If you do want to do those things, use [Periodic Notes](obsidian://show-plugin?id=periodic-notes) instead.
   - File Explorer - I've gone back and forth between this and [File Tree](obsidian://show-plugin?id=file-tree-alternative). File Tree is more compact and less finicky; I tend to like File Tree more, but both are good.
   - File recovery - Great file backup, takes snapshots of the vault every N minutes.
   - Format converter - for migrating from another app.
   - Graph View - If using Obsidian for knowledge-basing, Graph view is great! There are many adjacent plugins, we'll get to those in part 3.
   - Note composer - I would rather just copy paste than have hotkeys to break notes into parts. There's a popular community plugin to power this feature up called [Note Refactor](obsidian://show-plugin?id=note-refactor-obsidian), but I don't use it.
-  - Outgoing links - Show the outgoing links from the open file in the right sidebar. I don't use it often. 
+  - Outgoing links - Show the outgoing links from the open file in the right sidebar. I don't use it often.
   - Outline - See the outline of a long note in the right sidebar, seldom used
   - Page preview - Hover a link to see the first few lines, wikipedia style. Great feature.
-  - Publish - Premium feature, a bit pricey, but great if you'd like to work on a [public knowledge graph to share with your community](https://uncloak.org) 
+  - Publish - Premium feature, a bit pricey, but great if you'd like to work on a [public knowledge graph to share with your community](https://uncloak.org)
   - Quick Switcher - Outclassed; I use [quick switcher++](obsidian://show-plugin?id=darlal-switcher-plus) to search for notes, subheadings and more.
   - Random note - never used
   - Search - Good. Search through your vault for stuff. [Omnisearch](obsidian://show-plugin?id=omnisearch) is a search power-up.
   - Slash - I prefer to use command palette
   - Slides - Never used, but hypothetically for making presentations from markdown.
   - Starred - Nice in theory, in practice I prefer to set hotkeys with [Hotkeys for specific files](obsidian://show-plugin?id=obsidian-hotkeys-for-specific-files) for my most used files.
-  - Sync - Premium feature for $100/year to sync files across devices; there are community plugins if you'd like to avoid the fee and sync via dropbox or git repos. 
+  - Sync - Premium feature for $100/year to sync files across devices; there are community plugins if you'd like to avoid the fee and sync via dropbox or git repos.
   - Tags - Tag files with \#hashtags, as a way to categorize files. Hashtags work with forward slashes for organization, so \#supercategory/category/subcategory creates a nested series of tags. Disabling the tags plugin doesn't disable tags, only the right-sidebar tags interface. Plays nicely with the [Tag Wrangler](obsidian://show-plugin?id=tag-wrangler), which adds tools to manage tags.
   - Templates - Create notes from templates. [Templater](obsidian://show-plugin?id=templater-obsidian) is the powered up version of Templates.
   - Unique note creator - Create random hashes for note prefixes. Never used.
   - Word count - Show the word count at the bottom, nice to have. [Better word count](obsidian://show-plugin?id=better-word-count) eclipses by updating the word count when you select a section of text.
   - Workspaces - Open a specific set of pages. Useful for systemically returning to a set of notes. [Workspaces Plus](obsidian://show-plugin?id=workspaces-plus) enhances the workspace workflow.
+**Community Plugins**: See [[#Part Three All the plugins]].
 
 ## Part Two: Workflows
 So hopefully that quick run through settings-land wasn't too excruciatingly dull; we're going to switch gears into some ways you might like to use the app. As it goes with productivity tools and cults, some things are straightforward, others are not--the jutting darkly faceted tablet emerging from yonder void probably means nothing, must mean nothing, and must never be spoken of.
@@ -114,13 +119,13 @@ The basic premise of choosing to use a graph-based knowledge base is that the co
 flowchart LR
 A(Taking Notes) --> B(Organizing notes)
 ```
-I've wandered around the Zettelkasten productivity thought leadership; my recommendation is not to bother. Knowledge can be complicated, but the system is simple. Invest a little extra time in note-organizing, for the reward of a contextually clear knowledge graph. The graph encourages you to develop thoughts about how your ideas fit together, and reveals connections you may not have made otherwise. Shorter notes make for more elegant node elements. This may be obvious, but it's fine to take notes on something and not move them into the graph: don't spend your time working on graph elements you don't care about. 
+I've wandered around the Zettelkasten productivity thought leadership; my recommendation is not to bother. Knowledge can be complicated, but the system is simple. Invest a little extra time in note-organizing, for the reward of a contextually clear knowledge graph. The graph encourages you to develop thoughts about how your ideas fit together, and reveals connections you may not have made otherwise. Shorter notes make for more elegant node elements. This may be obvious, but it's fine to take notes on something and not move them into the graph: don't spend your time working on graph elements you don't care about.
 
 Some other recommendations:
 - Make a top-level directory for each use case you intend to use Obsidian for. In this case, I recommend one for note-taking, and one for knowledge-graphing.
-  - Within the note-taking directory, I recommend one further level of subdirectories dividing notes by source material: books, papers, blog posts, podcasts, etc. Why group by source material rather than topic material? Because \#tags are better suited for grouping notes by topic than directories. The tools for working with tags are more flexible than for working with the underlying filesystem. You can tag a single note with multiple topics, for instance. Dividing content by source also makes it easier to keep fewer, better organized templates. 
+  - Within the note-taking directory, I recommend one further level of subdirectories dividing notes by source material: books, papers, blog posts, podcasts, etc. Why group by source material rather than topic material? Because \#tags are better suited for grouping notes by topic than directories. The tools for working with tags are more flexible than for working with the underlying filesystem. You can tag a single note with multiple topics, for instance. Dividing content by source also makes it easier to keep fewer, better organized templates.
   - For your graph directory, you may want to avoid any further subdirectories. Instead, use the graph view to navigate connections between notes. If your graph elements are highly structured with clear parent-sibling-children relationships, consider using the [Breadcrumbs](obsidian://show-plugin?id=breadcrumbs) plugin to indicate relationships between nodes instead of, or in addition to, nested subdirectories in your graph area.
-- The game of "doing graph well" tends to involve answering the question: how do I use templates, tags, and YAML metadata[^4] to make life easy? There's a list of [[#Knowledge Basing Plugins]] that you may find useful in the following plugins section. 
+- The game of "doing graph well" tends to involve answering the question: how do I use templates, tags, and YAML metadata[^4] to make life easy? There's a list of [[#Knowledge Basing Plugins]] that you may find useful in the following plugins section.
 - If you're the kind of person who keeps a billion tabs open, consider making short notes on each page that you find interesting. You can then search through your notes with Obsidian's search features. I recommend creating one note per link, and adding an internal link to each new note from a topic reference note. You can automate the append-to-reference-note step via a QuickAdd macro, though these are somewhat time consuming to set-up and test out. I've set up an example of this flow for this vault, see QuickAdd settings. Copy some web link, and try out calling my custom macro `QuickAdd: create web note and add to sample web reference`. The macro creates a note in `note/web`, and an entry in [[r-Sample Web Reference]]. Templater and QuickAdd take a little time to learn, but are two of my most used plugins.
 - If you want different settings for different directories, use separate Obsidian Vaults. Symlink the plugins and settings that you want to keep synced across vaults.
 
@@ -149,7 +154,7 @@ scheduled before tomorrow
 limit to 5
 ```
 
-But for a better mobile experience, I've lately switched to using Todoist for scheduling recurring tasks, and sometimes backlog tasks. The workflow is largely the same: write recurring tasks in the app, include a codeblock in the journal template to display tasks scheduled for the day. The [Todoist Sync](obsidian://show-plugin?id=todoist-sync-plugin) plugin allows me to create Todoist tasks from within Obsidian, and display tasks from Todoist in my daily journal. 
+But for a better mobile experience, I've lately switched to using Todoist for scheduling recurring tasks, and sometimes backlog tasks. The workflow is largely the same: write recurring tasks in the app, include a codeblock in the journal template to display tasks scheduled for the day. The [Todoist Sync](obsidian://show-plugin?id=todoist-sync-plugin) plugin allows me to create Todoist tasks from within Obsidian, and display tasks from Todoist in my daily journal.
 ```todoist
 {
 "name": "Todoist tasks",
@@ -170,7 +175,6 @@ You probably already have some idea about how you like to do self organization. 
 
 a-people.md  a-todos.md  advice  ideas  meme  people  project  quotes  system  thor
 
-
 ## Part Three: All the plugins
 There's no turning back. You made it 4000+ words into a post about a notes app. You've committed to the lifestyle. The purple monolith is your friend. The purple monolith wants to make you happy. You want to make the purple monolith happy. You want to extend the purple monolith with nice plugins, and you don't want to waste all week doing it. Here's my notes on some nice plugins, and how to fix some user-experience paper cuts.
 
@@ -189,30 +193,35 @@ These notes are opinionated, your mileage may vary, blah blah not financial advi
 ### General low setup
 Plugins that just work, with 5 minutes of setup or less:
 - [Advanced New File](obsidian://show-plugin?id=obsidian-advanced-new-file) - Create new files, prompts for what directory to put the file in, so you don't have to move them manually. I replace the default *new note* Ctrl-N with this. The Advanced New Folder plugin is broken, unfortunately.
-- [Advanced Tables](obsidian://show-plugin?id=obsidian-advanced-new-file) - Must have, makes working with Markdown tables easy. I set table hotkeys under a leader key to make them easier to remember, but the setup of the actual plugin is very minimal.
+- [Advanced Tables](obsidian://show-plugin?id=obsidian-advanced-new-file) - Must have, makes working with Markdown tables easy. I set table hotkeys under a leader key to make them easier to remember, but the setup of the actual plugin is very minimal. Also see [Table Editor](https://github.com/ganesshkumar/obsidian-table-editor) for another tool for editing markdown tables and csv's, and [Table Extended](https://github.com/aidenlx/table-extended) if you want a MultiMarkdown extended syntax for formatting markdown tables.
 - [Auto Link Title](obsidian://show-plugin?id=obsidian-auto-link-title) - No setup, replace pasting links with their title. Disable for your templates directory.
 - [Better word count](obsidian://show-plugin?id=better-word-count) - One feature difference from the default word count (see bottom ribbon): select some text, the wordcount will reflect the words in the selection.
 - [Clear Unused Images](obsidian://show-plugin?id=oz-clear-unused-images) - Finds unused images in your media folder and clears them, saving space in your vault.
 - [Creases](obsidian://show-plugin?id=creases) - Not a huge improvement, but gives hotkeys for folding by headers, and a custom folding scheme that I don't ever use. I bind the default toggle-fold to Alt-H, and some of the toggle-fold for H1-6 to leader-keys.
 - [Filename Heading Sync](obsidian://show-plugin?id=obsidian-filename-heading-sync) - H1 headers should usually match filenames. This plugin enforces it. Typically worth disabling for templates, which may have templates in their H1.
-- [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes) - 1 new hotkey for creating, jumping to, and jumping back from footnotes, which I bind to Alt-F. I tried [Better Footnote](obsidian://show-plugin?id=better-fn), but found its model of footnotes less convenient.
+- [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes) - 1 new hotkey for creating, jumping to, and jumping back from footnotes, which I bind to Alt-F. I tried [Better Footnote](obsidian://show-plugin?id=better-fn), but found its model of footnotes less convenient. I also like [Tidy Footnotes](obsidian://show-plugin?id=obsidian-tidy-footnotes), which re-orders misordered footnotes.
 - [File Tree Alternative](obsidian://show-plugin?id=file-tree-alternative) - alternative to the default file-explorer. Shows files in a more compact way, with note counts. Doesn't require much setup; you will know quickly whether you like or hate the UI.
 - [Hider](obsidian://show-plugin?id=obsidian-hider) - Hide UI elements you don't like. I hide the app ribbon (don't do this unless you're totally comfortable with the keyboard commands!) and the scrollbar.
 - [Hotkey Helper](obsidian://show-plugin?id=hotkey-helper) - Tools for managing and viewing plugin hotkeys.
 - [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) - Some overlap with vim mode. I mainly use this to toggle to-do lists and blockquotes. The default keybinds are fine.
-- [Key Promoter](obsidian://show-plugin?id=key-promoter) - Help remind you where your hotkeys are, when you use the mouse to click something you could have hotkey'd. I feel it could be better, but it's better than nothing.
+- [Key Promoter](obsidian://show-plugin?id=key-promoter) - Help remind you where your hotkeys are, when you use the mouse to click something you could have hotkey'd. I feel it could be better, but it's better than nothing. Has a neat feature, can show you which hotkeys you use most with `Key Promoter: Statistics`.
+- [Keyboard Analyzer](obsidian://show-plugin?id=keyboard-analyzer) - Can show you a modal of which hotkeys you've bound where with `Open Keyboard Shortcuts View`. This is very useful if you bind many keys, or want to see what keys are unbound.
 - [Natural Language Dates](obsidian://show-plugin?id=nldates-obsidian) - Trigger Obsidian to replace natural language dates with the character @.
 - [Multi Column Markdown](obsidian://show-plugin?id=multi-column-markdown) - Sometimes you just need columns. Great for creating space-efficient hub notes: notes that link to many other notes. Doesn't play nice with other dynamically loaded content though.
 - [Obsidian Charts](obsidian://show-plugin?id=obsidian-charts) - Create charts. Not a lot of setup, the popup on `Insert New Chart`, and `Create Chart from Table` are pretty self-explanatory. I don't use this too often, but it's a nice feature to have.
 - [Omnisearch](obsidian://show-plugin?id=omnisearch) - Powered up fuzzy grepping search across files and vaults. Replaces core search plugin, and in-file search. Bind vault-search to Alt-O, runs slower than find-note search, which doesn't search inside files. For another powered-up search with many settings for filtering, see [Vantage](obsidian://show-plugin?id=vantage-obsidian).
 - [Obsidian Pandoc](obsidian://show-plugin?id=obsidian-pandoc) - Tool to export notes to other formats: pdf, html, ePub, docx, Latex, etc. Requires that you have `pandoc` and `pdflatex` CLI tools, which you should be able to install with your package manager of choice. You have to set up the export directory before you can use this plugin.
+- [Paste Image Png to Jpeg](obsidian://show-plugin?id=obsidian-paste-png-to-jpeg) - automatically rename images to indicate what file they live in for clarity, and compress images to take less space on pasting.
 - [Remember Cursor Position](obsidian://show-plugin?id=remember-cursor-position) - Does what it says on the box: remembers cursor position across files.
 - [Scroll Offset](obsidian://show-plugin?id=obsidian-scroll-offset) - Keep some distance between your cursor and the bottom of the screen, I set to 80 px, or about 3 lines. If you click into the buffer space, you break the spacing for the current note.
 - [Show Current File Path](obsidian://show-plugin?id=obsidian-show-file-path) - Show the file path in the bottom ribbon in an unobtrusive way.
 - [Tag Wrangler](obsidian://show-plugin?id=tag-wrangler) - More tools to manage tags in the core plugin right-sidebar tags pane.
+- [Tidy Footnotes](obsidian://show-plugin?id=obsidian-tidy-footnotes) - Reorder your footnotes, if they are out of order.
+- [Trim Whitespace](obsidian://show-plugin?id=obsidian-trim-whitespace) - Automatically Trim unused whitespace. A common feature in IDEs, nice to have it here as well, especially if you version control with git.
+- [Vault Changelog](obsidian://show-plugin?id=obsidian-vault-changelog) - get a changelog file, with the last N notes changed, and their time of change. Particularly useful if you work on a vault with others, or want to remember what files changed last. There's also a Recent Files plugin for something similar in the left sidebar.
 
 ### General medium setup
-Plugins that you may want to poke for at least 10 minutes. 
+Plugins that you may want to poke for at least 10 minutes.
 - [Completr](obsidian://show-plugin?id=obsidian-completr) - YAML frontmatter and LaTeX completions. I disable natural language completions, as I find it more often annoying than helpful.
 - [Dictionary](obsidian://show-plugin?id=obsidian-dictionary-plugin) - Create a dictionary view in the right sidebar, includes a thesaurus. Bound to Alt-D. Supports several languages.
 - [Hotkeys for Specific Files](obsidian://show-plugin?id=obsidian-hotkeys-for-specific-files) - For your notes that you intend to regularly revisit, it may be worth binding hotkeys to them. Works nicely with Leader keys. I prefer this over starring notes. I bind keys for templates that I edit frequently (periodic note templates), personal-organization hub notes, and personal reference notes.
@@ -223,6 +232,7 @@ Plugins that you may want to poke for at least 10 minutes.
 - [Quick Switcher++](obsidian://show-plugin?id=darlal-switcher-plus) - Replaces the Quick Switcher default plugin. The default command palette shows key-bindings, so the default is still preferred there. I bind Ctrl-S to `Symbol Mode` and Ctrl-L to `Related Items Mode`, and Ctrl-H to `Headers Mode`, and move `Search Replace` to Ctrl-R.
 - Sliding Panes (Andy Matuschak Mode) - Deprecated, but I want to highlight the `Toggle Stacked Tabs` command, which does the same. If you use many tabs, stacked tabs is an interesting UI; I'm still figuring out whether I like it. Documentation: [Stacked tabs - Obsidian Help](https://help.obsidian.md/User+interface/Stacked+tabs).. If you do like stacked tabs, try out Pane Relief, for more hotkeys for navigating tabs and panes and Cycle through Panes.
 - [Smarter Markdown Hotkeys](obsidian://show-plugin?id=obsidian-smarter-md-hotkeys) - Hotkeys to replace many toggle commands in Obsidian. Smarter Markdown Hotkeys assumes that if your cursor is on a word or part of a word, you mean to bold/italic/whatever the whole word, not put asterisks in the mi\*\*\*\*dle of the word like this. I bind many of these, replacing defaults where possible.
+- [Table of Contents](obsidian://show-plugin?id=obsidian-plugin-toc) and [Dynamic Table of Contents](obsidian://show-plugin?id=obsidian-dynamic-toc) - If you want a plaintext Table of Contents inserter, go for the former. If you'd prefer your ToC to update dynamically render with file contents (can't copy the contents of the rendered table), there's the latter. The former is buggier, and tends to number incorrectly, but are easy to replace with bullet points.
 - [Workspaces Plus](obsidian://show-plugin?id=workspaces-plus) - enhances the default Workspaces plugin with useful UI elements and hotkeys. Workspaces are a good candidate for leader keys.
 
 ### General high setup
@@ -234,23 +244,20 @@ Some plugins take longer to set up, but enable entirely new Obsidian workflows. 
   - [Template](https://github.com/chhoumann/quickadd/blob/master/docs/Choices/TemplateChoice.md) - Create files from templates. Capture also allows you to create files from templates, but Template allows you to choose where the file will be created from a dynamic list of directories, which is often a very useful feature. This vault includes an example of using a QA template to create a new reference note in `note/reference` , though I could have equivalently set the Templater default template for the `reference` directory, and used `Advanced new file: create new note` to choose the reference directory, since every note in the reference directory is presumably a reference note[^5].
   - [Macro](https://github.com/chhoumann/quickadd/blob/master/docs/Choices/MacroChoice.md) - Combine calling other commands. Very useful for simultaneously adding content in multiple locations. I've set up a demo macro for creating a note on a web page, and adding a link to the new note into a web-page reference note. Macros can also call custom JS scripts, if you feel comfortable with that.
   - [Multi-choice](https://github.com/chhoumann/quickadd/blob/master/docs/Choices/MultiChoice.md) - if you write many QA's, but don't want to bind them each to a key, but instead choose from a dropdown menu of QA's, multichoice allows you to organize them into a list.
+- [Projects](obsidian://show-plugin?id=obsidian-projects) - TODO
 - [Templater](obsidian://show-plugin?id=templater-obsidian) - More powerful tools for templating files and creating files from templates than the default Template plugin offers. If you're comfortable writing JS scripts, you may embed [your own scripts](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html) within templates. [Docs](https://silentvoid13.github.io/Templater/). The tool has an active [discussion forum](https://github.com/SilentVoid13/Templater/discussions). See the templates directory for some templater examples.
 - [Tracker](obsidian://show-plugin?id=obsidian-tracker) - similar to Dataview, but with a more constrained use case: collecting statistics about your vault. [Some examples](https://github.com/pyrochlore/obsidian-tracker/blob/master/docs/Examples.md). Also see [Vault Statistics](obsidian://show-plugin?id=obsidian-vault-statistics-plugin). I don't currently use either.
 - [Vimrc Support](obsidian://show-plugin?id=obsidian-vimrc-support) - If you use Vim mode, you probably want this. See the `.obsidian.vimrc` file for a sample setup, and the [home page](https://github.com/esm7/obsidian-vimrc-support) for info. You'll probably want to enable yank-to-system-clipboard and a couple other things. If you use vim in Obsidian, you can't actually copy text without unbinding Ctrl-C, or using vim yank-to-system-keyboard.
 
 ### Knowledge Basing Plugins
-There are many community plugins that you might be interested in for your knowledge base workflow. I wouldn't recommend trying to learn to use them all at once. Start with Breadcrumbs and Completr; most of these are only useful once you actually have a graph. If you use LaTeX, Jupyter, Pocket, Readwise, or Zotero, there are some decent integration options. 
-
-#### General
-- [Obsidian Jupyter](obsidian://show-plugin?id=obsidian-jupyter) - Turn obsidian into an interactive python repl. I haven't used this much but I'd like to.
-- [Table of Contents](obsidian://show-plugin?id=obsidian-plugin-toc) versus [Dynamic Table of Contents](obsidian://show-plugin?id=obsidian-dynamic-toc) - If you want a plaintext Table of Contents inserter, go for the former. If you'd prefer your ToC to update dynamically render with file contents (can't copy the contents of the rendered table), there's the latter. The former is buggier, and may misnumber the contents, but are easy to replace with bullet points. 
+There are many community plugins that you might be interested in for your knowledge base workflow. I wouldn't recommend trying to learn to use them all at once. Start with Breadcrumbs and Completr; most of these are only useful once you actually have a graph. If you use LaTeX, Jupyter, Pocket, Readwise, or Zotero, there are some decent integration options.
 
 #### Graph Tools
 - [Breadcrumbs](obsidian://show-plugin?id=breadcrumbs) - Set up structured relationships (parent, child, sibling) between notes. [Docs](https://breadcrumbs-wiki.onrender.com/docs/Home). Your graph links are unstructured, but you can use this plugin to add some structure back in. Provides its own tabular view of relationships, also integrates with Juggl for a graph view. Usage is simple: label relations between nodes in the YAML metadata. Comes with many hotkeys, good to bind with a leader key.
 - [Find unlinked files](obsidian://show-plugin?id=find-unlinked-files) - Utility to find unlinked files. Particularly useful if your graph is large.
 - [Graph Analysis](obsidian://show-plugin?id=graph-analysis) - Get statistics about the closeness of any two notes, and some other neat graph math. I'm still learning to use this, Journey is simpler.
 - [Hover Editor](obsidian://show-plugin?id=obsidian-hover-editor) - Open pages and images in an enhanced Page Preview view pop-up. Also functions as a sort of second overlay of tabs. A key feature is the Juggl integration, for hover-over views of notes in the Juggl alternate graph. Good candidate for leader keys. [[README]]
-- [Journey](obsidian://show-plugin?id=obsidian-journey-plugin) - Tools for finding paths between two notes in your knowledge base. Makes an unfortunate interface choice, the plugin should include a function, but only has a clicky button in the left bar. 
+- [Journey](obsidian://show-plugin?id=obsidian-journey-plugin) - Tools for finding paths between two notes in your knowledge base. Makes an unfortunate interface choice, the plugin should include a function, but only has a clicky button in the left bar.
 - [Juggl](obsidian://show-plugin?id=juggl) - An alternative to the Obsidian native graph view, integrating with Breadcrumbs for a structured view of note-relationships, and Hover for hover-over previews of nodes in the graph. Doesn't do well with vaults with more than 250 notes (which isn't many). [Docs](https://juggl.io/Juggl). I'm currently trying this out. An alternative to Juggl is ExcaliBrain.
 - [ExcaliBrain](obsidian://show-plugin?id=excalibrain) - An alternative to Breadcrumbs and Juggl for structured graph content, with a different UI. I'm currently trying this out, weighing it against Juggl. Requires DataView and Excalidraw to be installed as well.
 
@@ -266,11 +273,15 @@ Good but overshadowed:
 - [Latex Environments](obsidian://show-plugin?id=obsidian-latex-environments) - Completr does this, but with a better drop-down menu.
 
 #### I don't use these, but they deserve to be mentioned in this section:
+- [Database Folder](https://github.com/RafaelGB/obsidian-db-folder) - use a Notion-like Database folder. I don't much care for the Notion-style tables, but they're
+- [Diagrams](obsidian://show-plugin?id=drawio-obsidian) - I mostly use the mermaid-cli integration when drawing diagrams, but you may prefer the Draw.io interface.
 - [Excalidraw](obsidian://show-plugin?id=obsidian-excalidraw-plugin)\* - Integrate a feature-rich drawing tool into Obsidian. I typically would rather use Obsidian for Markdown, and other applications for drawing, and maybe throw a screenshot into Obsidian if I felt inspired. Suggested use case: you want to doodle along-side your notes or knowledge base.
 - [Ozan's Image in Editor](obsidian://show-plugin?id=oz-image-plugin)\* - Tools to view images, iframes, PDF Files, excalidraw drawings and transclusions in the Editor view. Suggested use case: for those who like non-text embedded content more than I do.
 - [Kindle Highlights](obsidian://show-plugin?id=obsidian-kindle-plugin) - Imports your kindle highlights.
 - [Readwise Official](obsidian://show-plugin?id=readwise-official) - Import your highlights from kindle, web highlights, and some other places. I'm looking into trying this and Zotero out.
-- [Citations](obsidian://show-plugin?id=obsidian-citation-plugin) (Zotero), [Zotero Integration](obsidian://show-plugin?id=obsidian-zotero-desktop-connector) - Zotero is an "easy-to-use tool to help you collect, organize, annotate, cite, and share research." Import your highlights from a personal Zotero database. 
+- [Citations](obsidian://show-plugin?id=obsidian-citation-plugin) (Zotero), [Zotero Integration](obsidian://show-plugin?id=obsidian-zotero-desktop-connector) - Zotero is an "easy-to-use tool to help you collect, organize, annotate, cite, and share research." Import your highlights from a personal Zotero database.
+- [Obsidian Jupyter](obsidian://show-plugin?id=obsidian-jupyter) - Turn obsidian into an interactive python repl.
+- [Desmos](obsidian://show-plugin?id=obsidian-desmos) - include plots from the Desmos online graphing calculator in your Vault.
 
 ### Journaling Plugins
 - [Periodic Notes](obsidian://show-plugin?id=periodic-notes) - Good for regular journaling, with good integration with Templates and Templater. I recommend keeping a top-level directory for periodic notes.
@@ -308,7 +319,7 @@ A quick run through some of the more popular plugins (>50k downloads) that I don
 - Text Snippets - Okay, but poor ergonomics for a text-snippets plugin; I prefer to use a system-wide text replacer instead
 - Macros - Not particularly effective for the typical Obsidian workflow, use Vim macros if you need them.
 - Open Link With - An issue with clicking links in Obsidian is that it doesn't use your already open browser windows. I'd hoped this plugin would solve this, but it doesn't, unfortunately.
-  
+
 [^1]: You can install fonts on Linux with the following:
 ```sh
 # make a font directory to store your custom fonts, symlink it to .local/share
@@ -326,17 +337,18 @@ fc-list | {grep or rg} FONTNAME
 [^4]: YAML metadata is information about the file that can be conveniently generated with templates. Eg, the following codeblock, contains file descriptor stuff that goes at the top of files
 ```
 ---
-creation date: <% tp.file.creation_date() %>
+# Getting Started with Obsidian
+creation date: 2022-11-06 16:03
 tags: [topic/example, note/web]
 sibling: \[\[Some Note\]\]
 parent: \[\[Some Daddy or Mommy Note\]\]
 template: [[some-template]]
 ---
-\#another-tag 
+\#another-tag
 Note that the tags in the yaml and in the hashtags play nicely with one another.
 ```
 [^5]:  How to choose between creating a QA Capture, QA Template, QA Macro, `Templater: Create new note from template`, and `Advanced new file: create new note` with a default directory template:
-- Templater create new note from template: Least setup, just write the template. Creat a new note from a template, filed at the top level directory. You will have to move the file to it's correct location. 
+- Templater create new note from template: Least setup, just write the template. Creat a new note from a template, filed at the top level directory. You will have to move the file to it's correct location.
 - Advanced new file and default directory template: A little setup. If every note in a directory uses the same template, the least finicky way to create a file is use the Templater directory default template feature. You will be prompted for a directory location, then a filename.
 - QA Template: Some setup and testing. Create a new note from a given template, either in a given directory (less useful) or with a dynamic directory selection (more useful). Allows the user to set a file naming convention.
 - QA Capture: As much setup as QA Template. Besides adding new content to other notes, QA capture can also be used to create notes from templates. QA Capture does not have dynamic directory selection, but is as useful as QA template if you already know where the file needs to be created.

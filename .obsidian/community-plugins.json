@@ -48,5 +48,11 @@
   "key-promoter",
   "obsidian-scroll-offset",
   "obsidian-rollover-daily-todos",
-  "multi-column-markdown"
+  "multi-column-markdown",
+  "obsidian-paste-png-to-jpeg",
+  "obsidian-vault-changelog",
+  "keyboard-analyzer",
+  "obsidian-trim-whitespace",
+  "obsidian-tidy-footnotes",
+  "obsidian-projects"
 ]

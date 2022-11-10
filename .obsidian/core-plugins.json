@@ -8,5 +8,6 @@
   "templates",
   "command-palette",
   "workspaces",
-  "file-recovery"
+  "file-recovery",
+  "sync"
 ]

@@ -304,7 +304,14 @@
       "key": "N"
     }
   ],
-  "templater-obsidian:replace-in-file-templater": [],
+  "templater-obsidian:replace-in-file-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "'"
+    }
+  ],
   "workspace:split-vertical": [
     {
       "modifiers": [
@@ -599,6 +606,36 @@
         "Alt"
       ],
       "key": "-"
+    }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ","
+    }
+  ],
+  "app:open-help": [],
+  "keyboard-analyzer:show-shortcuts-analyzer-view": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F1"
+    }
+  ],
+  "obsidian-tidy-footnotes:tidy-footnotes": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "F"
     }
   ]
 }

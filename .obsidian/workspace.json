@@ -4,29 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a7e85338fcdaa92e",
+        "id": "4fb251107c77297d",
         "type": "tabs",
         "children": [
           {
-            "id": "e347c15efe453b6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Getting Started with Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "dc44a8a2ee7b5fbc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8f03e84a8f63f26d",
+            "id": "f7a96520056a5753",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -206,17 +188,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e347c15efe453b6e",
+  "active": "f7a96520056a5753",
   "lastOpenFiles": [
-    "topic .md",
-    "Getting Started with Obsidian.md",
-    "media/Pasted image 20221109130405.png",
     "templates/journal.md",
+    "misc/changelog.md",
+    "misc/changelog.md.md",
     "README.md",
-    "Untitled.md",
-    "test.md",
+    "notes/reference/r-Sample Web Reference.md",
+    "Getting Started with Obsidian.md",
+    "templates/quickadd-note-web.md",
     "templates/reference.md",
-    "Untitled 1.md",
-    "templates/quickadd-note-web.md"
+    "periodic/journal/j-2022-11-10.md",
+    "topic .md"
   ]
 }

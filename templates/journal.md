@@ -1,5 +1,5 @@
 ---
-creation date: <% tp.file.creation_date() %>
+creation-date: <% tp.file.creation_date() %>
 tags: [periodic/journal]
 template: [[journal]]
 prev: [[j-<% tp.date.yesterday() %>]
