@@ -102,6 +102,40 @@
       "type": "Macro",
       "command": true,
       "macroId": "f103bde6-f2b2-49ab-8ec6-9f1e04245c8e"
+    },
+    {
+      "id": "903dadc3-0286-4814-ae77-8ab6d623ae78",
+      "name": "dump clipboard to task-backlog",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "self/task-backlog.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "## {{DATE:gggg-MM-DD HH:mm}} dump\n<% tp.system.clipboard() %>\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# task-backlog",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [

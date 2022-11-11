@@ -179,9 +179,25 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "3b44b340f5bd9490",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "52b5c4ad334d9d72",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -190,15 +206,15 @@
   },
   "active": "f7a96520056a5753",
   "lastOpenFiles": [
+    "self/task-backlog.md",
+    "Getting Started with Obsidian.md",
     "templates/journal.md",
     "misc/changelog.md",
     "misc/changelog.md.md",
     "README.md",
     "notes/reference/r-Sample Web Reference.md",
-    "Getting Started with Obsidian.md",
     "templates/quickadd-note-web.md",
     "templates/reference.md",
-    "periodic/journal/j-2022-11-10.md",
-    "topic .md"
+    "periodic/journal/j-2022-11-10.md"
   ]
 }
