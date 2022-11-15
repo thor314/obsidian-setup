@@ -11,12 +11,8 @@
             "id": "1c8075be97c5e156",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Getting Started with Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Getting Started with Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,8 +217,8 @@
   },
   "active": "1c8075be97c5e156",
   "lastOpenFiles": [
-    "notes/reference/example reference.md",
     "Getting Started with Obsidian.md",
+    "notes/reference/example reference.md",
     "test.md",
     "graph/Getting Started with Obsidian.md",
     "Untitled 1.md",
