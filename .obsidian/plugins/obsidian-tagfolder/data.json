@@ -1,0 +1,22 @@
+{
+  "displayMethod": "NAME",
+  "alwaysOpen": false,
+  "ignoreDocTags": "",
+  "ignoreTags": "",
+  "hideOnRootTags": "",
+  "sortType": "MTIME_ASC",
+  "sortTypeTag": "NAME_ASC",
+  "expandLimit": 0,
+  "disableNestedTags": false,
+  "hideItems": "NONE",
+  "ignoreFolders": "templates",
+  "targetFolders": "",
+  "scanDelay": 250,
+  "useTitle": true,
+  "reduceNestedParent": true,
+  "frontmatterKey": "title",
+  "useTagInfo": false,
+  "tagInfo": "pininfo.md",
+  "mergeRedundantCombination": false,
+  "useVirtualTag": false
+}

@@ -10,7 +10,6 @@
 " Note about `surround`: as of 2022-05-20, surround does not work, and is janky
 " anyhow, but there's a fix coming, eventually, maybe.
 
-" Reminder to keep C-u, C-d unbound in keybinds so I can go up and down
 
 " Yank to system clipboard https://forum.obsidian.md/t/how-to-copy-with-vim-mode/3881
 set clipboard=unnamed
@@ -18,6 +17,16 @@ set clipboard=unnamed
 " alt escapes if I forget to escape
 imap jj <Esc> 
 imap kk <Esc>
+
+" Bind C-u, C-d (up, down) to Shift-U and shift-D, so that C-u and C-d can be used for normal Obsidian hotkeys.
+" Use C-z, C-S-z for undo/redo.
+nmap U <C-u>
+nmap D <C-d>
+" free up C-r for search-replace, set redo to vim-redo
+nmap <C-Z> <C-r> 
+" Bind C-o, C-i (jump back, forward) to Shift-E and shift-B for same
+nmap E <C-i>
+nmap B <C-o>
 
 " Since C-o is taken, use the following for go-back/forward.
 " This mapping repeats a mapping in the in-app hotkeys menu for demonstration; the in-app menu overwrites mappings here.
@@ -39,24 +48,13 @@ omap L $
 nmap t xhhpll 
 nmap T ~ 
 
-" free up C-r, set redo to something memorable
-nmap U <C-r> 
-
-" Experiment with leader mapping, set '-' as leader
+" Example leader mapping, set '-' as leader
+" may migrate to this if the Leader-Hotkeys normal-mode bug isn't fixed
 nmap - <leader>
 nmap <leader>j 4j
 nmap <leader>k 4k
 
-" Broke
-" exmap wiki surround [[ ]]
-" map s[ :wiki
-" exmap parens surround ( )
-" map s( :parens
-" exmap quote surround \" \"
-" vmap s" :quote
-" " paste into pastes text into buffer, not sure why it's good, but try it when
-" " surround un-breaks
-" map <A-v> :pasteinto
-
 """ Trash
-" set nohlsearch " nmap <F9> :nohl - useless
+" - useless, not sure how to get rid of Obsidian's persistent search highlight, except hit esc every time
+" nmap <F9> :nohl 
+" set nohlsearch 

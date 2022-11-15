@@ -5,12 +5,10 @@
   "table-editor-obsidian",
   "file-tree-alternative",
   "obsidian-footnotes",
-  "obsidian-advanced-new-file",
   "creases",
   "obsidian-hider",
   "obsidian-hotkeys-for-specific-files",
   "hotkeysplus-obsidian",
-  "obsidian-languagetool-plugin",
   "obsidian-charts",
   "periodic-notes",
   "darlal-switcher-plus",
@@ -45,7 +43,6 @@
   "quickadd",
   "workspaces-plus",
   "metaedit",
-  "key-promoter",
   "obsidian-scroll-offset",
   "obsidian-rollover-daily-todos",
   "multi-column-markdown",
@@ -54,5 +51,8 @@
   "keyboard-analyzer",
   "obsidian-trim-whitespace",
   "obsidian-tidy-footnotes",
-  "obsidian-projects"
+  "dbfolder",
+  "obsidian-tagfolder",
+  "dataview",
+  "obsidian-languagetool-plugin"
 ]

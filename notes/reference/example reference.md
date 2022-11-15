@@ -4,4 +4,4 @@ tags: [note/reference]
 template: [[reference]]
 ---
 #topic/example
-# r-Sample Web Reference
+# example reference

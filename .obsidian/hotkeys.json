@@ -298,8 +298,7 @@
   "templater-obsidian:create-new-note-from-template": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "N"
     }
@@ -466,15 +465,7 @@
       "key": "P"
     }
   ],
-  "hotkey-helper:open-hotkeys": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ],
+  "hotkey-helper:open-hotkeys": [],
   "hotkey-helper:open-settings": [
     {
       "modifiers": [
@@ -636,6 +627,33 @@
         "Shift"
       ],
       "key": "F"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-linter:lint-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
     }
   ]
 }
