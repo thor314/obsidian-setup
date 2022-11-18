@@ -21,7 +21,13 @@
   "fieldSuggestor": true,
   "filterImpliedSiblingsOfDifferentTypes": false,
   "jugglLayout": "hierarchy",
-  "limitWriteBCCheckboxes": [],
+  "limitWriteBCCheckboxes": [
+    "up",
+    "same",
+    "down",
+    "next",
+    "prev"
+  ],
   "CHECKBOX_STATES_OVERWRITTEN": false,
   "gridDefaultDepth": 25,
   "hierarchyNotes": [
@@ -29,9 +35,7 @@
   ],
   "hierarchyNoteIsParent": false,
   "HNUpField": "",
-  "indexNotes": [
-    ""
-  ],
+  "indexNotes": [],
   "namingSystemField": "",
   "namingSystemRegex": "",
   "namingSystemSplit": ".",
@@ -40,8 +44,8 @@
   "useAllMetadata": true,
   "openMatrixOnLoad": true,
   "openDuckOnLoad": false,
-  "openDownOnLoad": true,
-  "parseJugglLinksWithoutJuggl": false,
+  "openDownOnLoad": false,
+  "parseJugglLinksWithoutJuggl": true,
   "showNameOrType": true,
   "showRelationType": true,
   "regexNoteField": "",
@@ -55,7 +59,7 @@
   "showImpliedRelations": true,
   "showTrail": true,
   "showGrid": true,
-  "showJuggl": false,
+  "showJuggl": true,
   "showPrevNext": true,
   "sortByNameShowAlias": false,
   "squareDirectionsOrder": [
@@ -74,7 +78,7 @@
   ],
   "limitJumpToFirstFields": [],
   "showAll": "All",
-  "noPathMessage": "This note has no real or implied parents",
+  "noPathMessage": "",
   "tagNoteField": "",
   "threadIntoNewPane": false,
   "threadingTemplate": "{{field}} of {{current}}",
@@ -109,7 +113,7 @@
       ]
     }
   ],
-  "writeBCsInline": false,
+  "writeBCsInline": true,
   "showWriteAllBCsCmd": false,
   "visGraph": "Force Directed Graph",
   "visRelation": "Parent",
@@ -125,6 +129,6 @@
     "parentsParentsIsParent": false,
     "cousinsIsSibling": false
   },
-  "refreshOnNoteSave": false,
-  "showUpInJuggl": false
+  "refreshOnNoteSave": true,
+  "showUpInJuggl": true
 }

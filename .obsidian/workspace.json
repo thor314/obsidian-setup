@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d465fe31de3d799",
+        "id": "b8d3565ac89fb54d",
         "type": "tabs",
         "children": [
           {
-            "id": "1c8075be97c5e156",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "bc60c4eac9a3a3c0",
+            "id": "3a3b16147e3b97f3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,54 +128,6 @@
             }
           },
           {
-            "id": "1f35f8b57e8d58dd",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "7c0bc03a5cef096b",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "34f5eb5c5a9a4f53",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "1623a14b9bcb9151",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
-            "id": "74dc45970caf56d9",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "f10bfb5cbcf0093b",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
             "id": "93d44ef40d72eac8",
             "type": "leaf",
             "state": {
@@ -192,15 +136,23 @@
             }
           },
           {
-            "id": "3b44b340f5bd9490",
+            "id": "04766d428d1465c8",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "juggl_nodes",
               "state": {}
             }
           },
           {
-            "id": "52b5c4ad334d9d72",
+            "id": "c0114b47fc5590ba",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "78db66fc08d35ec2",
             "type": "leaf",
             "state": {
               "type": "BC-matrix",
@@ -208,14 +160,13 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "1c8075be97c5e156",
+  "active": "3a3b16147e3b97f3",
   "lastOpenFiles": [
     "Getting Started with Obsidian.md",
     "notes/reference/example reference.md",
@@ -224,8 +175,6 @@
     "Untitled 1.md",
     "Untitled 2.md",
     "Untitled 3.md",
-    "note.md",
-    "foldernote/foldernote.md",
-    "graph/graph.md"
+    "note.md"
   ]
 }

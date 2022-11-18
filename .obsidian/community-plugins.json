@@ -37,7 +37,6 @@
   "quick-latex",
   "obsidian-tikzjax",
   "copy-as-latex",
-  "breadcrumbs",
   "obsidian-hover-editor",
   "juggl",
   "quickadd",
@@ -54,5 +53,6 @@
   "dbfolder",
   "obsidian-tagfolder",
   "dataview",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "breadcrumbs"
 ]

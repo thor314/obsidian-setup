@@ -61,14 +61,7 @@
       "key": "S"
     }
   ],
-  "darlal-switcher-plus:switcher-plus:open-related-items": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
+  "darlal-switcher-plus:switcher-plus:open-related-items": [],
   "editor:toggle-checklist-status": [],
   "editor:save-file": [],
   "editor:open-search-replace": [
@@ -651,6 +644,14 @@
     {
       "modifiers": [
         "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-languagetool-plugin:ltcheck-text": [
+    {
+      "modifiers": [
         "Mod"
       ],
       "key": "L"
