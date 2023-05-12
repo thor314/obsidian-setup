@@ -211,7 +211,6 @@ These plugins tend to introduce minor quality-of-life improvements or introduce 
 - [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes) - 1 new hotkey for creating, jumping to, and jumping back from footnotes, which I bind to Alt-F. I tried [Better Footnote](obsidian://show-plugin?id=better-fn), but found its model of footnotes less convenient. I also like [Tidy Footnotes](obsidian://show-plugin?id=obsidian-tidy-footnotes), which re-orders misordered footnotes.
 - [File Tree Alternative](obsidian://show-plugin?id=file-tree-alternative) - alternative to the default file-explorer. Shows files in a more compact way, with note counts. Doesn't require much setup; you will know quickly whether you like or hate the UI. Though I tend to use the tags view more than either.
 - [Hider](obsidian://show-plugin?id=obsidian-hider) - Hide UI elements you don't like. I hide the app ribbon (don't do this unless you're totally comfortable with the keyboard commands!) and the scrollbar.
-- [Hotkey Helper](obsidian://show-plugin?id=hotkey-helper) - Tools for managing and viewing plugin hotkeys.
 - [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) - Some overlap with vim mode. I mainly use this to toggle to-do lists and blockquotes. The default keybinds are fine.
 - [Keyboard Analyzer](obsidian://show-plugin?id=keyboard-analyzer) - Can show you a modal of which hotkeys you've bound where with `Open Keyboard Shortcuts View`. This is very useful if you bind many keys, or want to see what keys are unbound.
 - [Natural Language Dates](obsidian://show-plugin?id=nldates-obsidian) - Trigger Obsidian to replace natural language dates with the character `@`.
@@ -302,9 +301,9 @@ Good but overshadowed:
 ### Journaling Plugins
 - [Periodic Notes](obsidian://show-plugin?id=periodic-notes) - Good for regular journaling, with good integration with Templates and Templater. I recommend keeping a top-level directory for periodic notes.
 - [Rollover Daily Todos](obsidian://show-plugin?id=obsidian-rollover-daily-todos) - Quality of life tool for a lightweight todo workflow in your daily note. Make checkboxes in your journal file in the checkbox area, this plugin automatically rolls unfinished todos over to tomorrow's journal.
-- [Google Calendar](obsidian://show-plugin?id=google-calendar) - Poke your google calendar, from Obsidian. May be useful for taking notes for specific meetings, updating your calendar from Obsidian, displaying your calendar from within a journal files, at the cost of losing at least a half hour to the angry god that is the Google Cloud Platform.
-- [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin) - I found managing todos through Obsidian is fiddly and has a poor mobile experience, so I've recently migrated to using Todoist and Todoist Sync plugin, which I've enjoyed more. I found setting up todos through Tasks too fiddly to be worthwhile for anything except recurring tasks. When I was using Tasks, I set my journal template to include a recurring task area, which was reasonably useful, see the Journal section in part 2 for details.
-- [Todoist Sync](obsidian://show-plugin?id=todoist-sync-plugin)- If you're going to do todo's I feel you might as well use an app meant for todos, or else spend a lot of time fiddling with janky scripts for your vault. Todoist comes well recommended, and with a community Obsidian integration. [Todoist Text](obsidian://show-plugin?id=todoist-text) - A lighter version of the same with a non-dynamic text interface. If you already have a todo-manager, there's a decent chance there's a plugin for it.
+- [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin) - Todoist and Tasks are both fine. Todoist can send mobile notifications, which is the only effective difference for me. I generally only use either for recurring tasks. 
+- [Todoist Sync](obsidian://show-plugin?id=todoist-sync-plugin) - See Tasks. Todoist comes well recommended, and with a community Obsidian integration. 
+- [Todoist Text](obsidian://show-plugin?id=todoist-text) - A lighter Todoist plugin, with a non-dynamic text interface.
 - [Tracker](obsidian://show-plugin?id=obsidian-tracker) - similar to Dataview, but with a more constrained use case: collecting statistics about your vault, typically your journal files. [Some examples](https://github.com/pyrochlore/obsidian-tracker/blob/master/docs/Examples.md). Also see [Vault Statistics](obsidian://show-plugin?id=obsidian-vault-statistics-plugin). I don't currently use either.
 
 ### Plugins I should mention but don't use
@@ -321,10 +320,12 @@ A quick run through some of the more popular plugins (>50k downloads) that I don
 - Emoji toolbar - I use an operating system-wide emoji selector; if you don't have one, this might be useful.
 - Copy Button for Code blocks - Deprecated; this exists as a default feature
 - Annotator - I don't annotate pdfs or epubs from obsidian, but if I did, I might use this
+- [Google Calendar](obsidian://show-plugin?id=google-calendar) - Poke your google calendar, from Obsidian. May be useful for taking notes for specific meetings, updating your calendar from Obsidian, displaying your calendar from within a journal files, at the cost of losing at least a half hour to the angry god that is the Google Cloud Platform. 
 - Note Refactor - An upgrade to default Note Composer, but I would typically rather just copy/cut-paste for breaking notes up.
 - Recent Files - UI candy, but not as bad as some of the others. Still, I wouldn't use this much.
 - Obsidian Icon Folder - Icon UI candy, not for me
 - Advanced Obsidian URI - I'm not actually sure how I would use this, but it seems likely too fiddly for me.
+- [Hotkey Helper](obsidian://show-plugin?id=hotkey-helper) - Tools for managing and viewing plugin hotkeys. Uninstalled after bug caused hotkeys tab to crash.
 - Remotely Save - I pay the annual $100 for Obsidian Sync, but this looks like a great way to get around it.
 - Buttons - I am keyboard people, and do not like ze buttons.
 - Highlightr - I don't read PDFs from Obsidian, but if I did, I might use this.
