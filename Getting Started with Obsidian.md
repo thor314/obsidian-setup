@@ -279,6 +279,8 @@ There are many community plugins that you might be interested in for your knowle
     - auto appends limits for cleaner notation: $\sum\limits_n^i$ vs $\sum_{i}^n$
     - auto-enlarge brackets that would be too small
     - some [custom shorthands](https://github.com/joeyuping/quick_latex_obsidian#enhanced11-custom-shorthand)
+- [Extended MathJax](obsidian://show-plugin?id=obsidian-latex) - adds a global preamble file for defining latex commands
+  and `mchem` and `bussproofs` latex packages
 - [Copy as Latex](obsidian://show-plugin?id=copy-as-latex) - Copy markdown as LaTeX. Very useful if you move between the two formats. Overlaps Pandoc, but with the feature export selections as opposed to whole files.
 - [Obsidian Pandoc](obsidian://show-plugin?id=obsidian-pandoc) (repeated from general low setup) - Tool to export notes to other formats: pdf, html, ePub, docx, Latex, etc. Requires that you have `pandoc` and `pdflatex` CLI tools, which you should be able to install with your package manager of choice.
 - [TikZJax](obsidian://show-plugin?id=obsidian-tikzjax): Enable MathJax support for working with TikZ diagrams. If you work with cryptography, take a look at [this library of diagrams](https://www.iacr.org/authors/tikz/).
