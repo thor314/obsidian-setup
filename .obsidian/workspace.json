@@ -134,14 +134,6 @@
             }
           },
           {
-            "id": "8eed70a74755076c",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
             "id": "36e0454a573e902e",
             "type": "leaf",
             "state": {
@@ -156,25 +148,9 @@
               "type": "graph-analysis",
               "state": {}
             }
-          },
-          {
-            "id": "c95aa592526fb5eb",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "89145bde0ba7413c",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,16 +171,14 @@
       "dbfolder:Create a new database table": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-journey-plugin:Find Journey": false,
-      "juggl:Juggl global graph": false,
-      "periodic-notes:Open today": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "55310d3964eddffa",
   "lastOpenFiles": [
-    "Getting Started with Obsidian.md",
+    "periodic/journal/j-2023-05-31.md",
     "templates/journal.md",
+    "Getting Started with Obsidian.md",
     "README.md",
     "notes/reference/example reference.md",
     "notes/reference/Breadcrumbs, Juggl, and ExcaliBrain notes.md",

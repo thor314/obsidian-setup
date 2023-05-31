@@ -307,9 +307,8 @@ Less recommended, as I believe they are overshadowed:
 - [Rollover Daily Todos](obsidian://show-plugin?id=obsidian-rollover-daily-todos) - Quality of life tool for a lightweight todo workflow in your daily note. Make checkboxes in your journal file in the checkbox area, this plugin automatically rolls unfinished todos over to tomorrow's journal.
 - [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin) or [Todoist Sync](obsidian://show-plugin?id=todoist-sync-plugin)  are both fine. Todoist can send mobile notifications, which is the only difference to me.
 
-
 ### Misc
-I make occasional use of [Citations](obsidian://show-plugin?id=obsidian-citation-plugin), an integration for my Zotero vault. Zotero I mainly use to read pdfs of papers and books. Citations allows me to import my highlights and generate citations.
+I make occasional use of [Zotero Integration](obsidian://show-plugin?id=obsidian-zotero-desktop-connector), an integration for my Zotero vault. Zotero I mainly use to read pdfs of papers and books. Citations allows me to import my highlights and generate citations.
 
 ### Plugins I should mention but don't use
 A quick run through some of the more popular plugins (>50k downloads) that I don't use. I also include several plugins that I've tried that didn't work out.
@@ -363,7 +362,7 @@ A quick run through some of the more popular plugins (>50k downloads) that I don
 ## Conclusion
 Uh, hope that was helpful. Have fun using Obsidian.
 
-##### Footnotes
+### Footnotes
 [^1]: You can install fonts on Linux with the following:
 [^2]:  How to choose between creating a QA Capture, QA Template, QA Macro, and `Templater: Create new note from template` :
 ```sh
