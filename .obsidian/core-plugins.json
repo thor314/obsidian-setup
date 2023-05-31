@@ -3,10 +3,12 @@
   "global-search",
   "graph",
   "backlink",
+  "canvas",
   "tag-pane",
   "page-preview",
   "templates",
   "command-palette",
+  "bookmarks",
   "workspaces",
   "file-recovery"
 ]

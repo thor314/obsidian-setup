@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b8d3565ac89fb54d",
+        "id": "bfe9dbc7ab88a57a",
         "type": "tabs",
         "children": [
           {
-            "id": "3a3b16147e3b97f3",
+            "id": "55310d3964eddffa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Getting Started with Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -54,27 +58,28 @@
             }
           },
           {
-            "id": "e80b2d2ec88d5327",
+            "id": "4dfbf6c098e89829",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a0f1109a5f55fff5",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
               "state": {}
             }
-          },
-          {
-            "id": "771571440b3abd5f",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 202.5110321044922
+    "width": 202.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "fe177f0acf67a7c6",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Getting Started with Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,14 +126,6 @@
             }
           },
           {
-            "id": "3f4a21b64c4fa247",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
             "id": "93d44ef40d72eac8",
             "type": "leaf",
             "state": {
@@ -136,7 +134,31 @@
             }
           },
           {
-            "id": "04766d428d1465c8",
+            "id": "8eed70a74755076c",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "36e0454a573e902e",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "9a3c73781cf7e342",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "c95aa592526fb5eb",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -144,32 +166,48 @@
             }
           },
           {
-            "id": "c0114b47fc5590ba",
+            "id": "89145bde0ba7413c",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
               "state": {}
             }
-          },
-          {
-            "id": "78db66fc08d35ec2",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "3a3b16147e3b97f3",
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-trim-whitespace:Trim whitespace": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "dbfolder:Create a new database table": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-journey-plugin:Find Journey": false,
+      "juggl:Juggl global graph": false,
+      "periodic-notes:Open today": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
+    }
+  },
+  "active": "55310d3964eddffa",
   "lastOpenFiles": [
     "Getting Started with Obsidian.md",
+    "templates/journal.md",
+    "README.md",
     "notes/reference/example reference.md",
+    "notes/reference/Breadcrumbs, Juggl, and ExcaliBrain notes.md",
     "test.md",
     "graph/Getting Started with Obsidian.md",
     "Untitled 1.md",

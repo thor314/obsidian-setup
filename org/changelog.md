@@ -1,6 +1,0 @@
-- 2022-11-17 at 23h04 · [[Getting Started with Obsidian]]
-- 2022-11-17 at 23h04 · [[Breadcrumbs, Juggl, and ExcaliBrain notes]]
-- 2022-11-15 at 10h18 · [[task-backlog]]
-- 2022-11-15 at 10h17 · [[example reference]]
-- 2022-11-15 at 10h17 · [[journal]]
-- 2022-11-15 at 10h17 · [[README]]
