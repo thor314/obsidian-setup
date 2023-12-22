@@ -42,5 +42,6 @@
     "Breadcrumbs"
   ],
   "autoPairMarkdown": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "propertiesInDocument": "source"
 }

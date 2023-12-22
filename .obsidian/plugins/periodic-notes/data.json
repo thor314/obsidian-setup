@@ -1,10 +1,10 @@
 {
-  "showGettingStartedBanner": true,
+  "showGettingStartedBanner": false,
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "j-YYYY-MM-DD",
-    "template": "templates/j-{{date}}.md",
+    "template": "templates/journal.md",
     "folder": "periodic/journal",
     "enabled": true
   },

@@ -6,8 +6,11 @@ last-modified: `$= dv.current().file.mtime`
 - wr:: [[w-<% tp.date.now("YYYY") %>-W<% tp.date.now("ww") %>]]
 # j-<% tp.date.now("YYYY-MM-DD") %>
 ## 📜 Tasks: <% tp.file.cursor() %>
-- 30m self-care in the morning
-- [[me-Day in a Sentence]]
+- [ ] 30m self-care in the morning
+### overflow
+- [ ] something to do tomorrow 
+### misc
+- [ ] oh I just thought about doing this thing
 ## Main thing: 
-- [[me-Reading list]]: 
+- [ ] write: [[Getting Started with Obsidian]]
 ## HELLO 🪁✨ {{time}}

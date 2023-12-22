@@ -657,5 +657,14 @@
       "key": "L"
     }
   ],
-  "workspace:close-window": []
+  "workspace:close-window": [],
+  "file-recovery:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ]
 }

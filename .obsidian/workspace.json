@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bfe9dbc7ab88a57a",
+        "id": "f907f8871161d62d",
         "type": "tabs",
         "children": [
           {
-            "id": "55310d3964eddffa",
+            "id": "72365898a18bf9bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -72,14 +72,21 @@
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "dbff424e0c7a4647",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 202.5110321044922,
-    "collapsed": true
+    "width": 202.5110321044922
   },
   "right": {
     "id": "fe177f0acf67a7c6",
@@ -148,9 +155,17 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "9e53dce0833a9ac4",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,11 +189,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "55310d3964eddffa",
+  "active": "72365898a18bf9bc",
   "lastOpenFiles": [
-    "periodic/journal/j-2023-05-31.md",
-    "templates/journal.md",
+    "README.md~",
+    "media/image",
+    "media/image/Getting Started with Obsidian-1703198611566.jpeg",
     "Getting Started with Obsidian.md",
+    "templates/journal.md",
+    "me-Day in a Sentence.md",
+    "Untitled.md",
+    "periodic/journal/j-2023-12-21.md",
+    "periodic/journal/j-2023-05-31.md",
     "README.md",
     "notes/reference/example reference.md",
     "notes/reference/Breadcrumbs, Juggl, and ExcaliBrain notes.md",
