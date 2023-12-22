@@ -1,0 +1,34 @@
+/* Yellow */
+.literature-note .callout[data-callout-metadata="#ffff7f"] {
+  --callout-color: 255, 204, 0;
+}
+
+/* Red */
+.literature-note .callout[data-callout-metadata="#ff7f7f"] {
+  --callout-color: 255, 59, 48;
+}
+
+/* Orange */
+.literature-note .callout[data-callout-metadata="#ffbf7f"] {
+  --callout-color: 255, 149, 0;
+}
+
+/* Green */
+.literature-note .callout[data-callout-metadata="#7fff7f"] {
+  --callout-color: 40, 205, 65;
+}
+
+/* Blue */
+.literature-note .callout[data-callout-metadata="#7fffff"] {
+  --callout-color: 0, 122, 255;
+}
+
+/* Pink */
+.literature-note .callout[data-callout-metadata="#ff7fff"] {
+  --callout-color: 255, 87, 255;
+}
+
+/* Purple */
+.literature-note .callout[data-callout-metadata="#bf7fbf"] {
+  --callout-color: 125, 84, 222;
+}

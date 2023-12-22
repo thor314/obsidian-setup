@@ -1,0 +1,126 @@
+% this file contains a few vault-wide convenience latex newcommands.
+% u can also include newcommands for just a given file, just make a $$block$$ and put them there.
+%
+% mathjax docs: https://docs.mathjax.org/en/v3.0-latest/input/tex/macros/index.html?highlight=left%20align
+% though katex docs easier to read and mostly same: https://katex.org/docs/supported.html
+% inpirational: https://www.ctan.org/pkg/cryptocode 
+% aside: hate newcommand? love explicit (make copy-paste easier)? consider text-expander like espanso instead
+% convenience symlink: $VAULT/.preamble.sty -> $VAULT/.obsidian/preamble.sty
+%
+% note on defaults: specify a command taking 3 inputs, where 2 is the default input for the first.
+% \newcommand{\plusbinomial}[3][2]{(#2 + #3)^#1}
+% usage: \plusbinomial a b -> will default to 2 in the exponent
+% usage: \plusbinomial[3] a b -> will overwrite 3 to the exponent
+
+
+ %%%%%%%%%%
+%% COMMON %%
+ %%%%%%%%%%
+% lowercase shorthands for greek letters, symbols, and a few operators
+\newcommand{a}{\alpha}
+\newcommand{b}{\beta}
+\newcommand{c}{\gamma}
+\newcommand{d}{\delta}
+\newcommand{s}{\sigma}
+\newcommand{w}{\omega}
+\newcommand{x}{\times}
+
+\newcommand{i}[1][1]{^{-#1}} 
+
+\newcommand{h}{\hat}
+\newcommand{t}{\tilde}
+
+% convenient pairs
+\newcommand{abs}[1]{\lvert #1 \rvert}
+\newcommand{angle}[1]{\langle #1 \rangle}
+\newcommand{ceil}[1]{\lceil #1 \rceil}
+\newcommand{floor}[1]{\lfloor #1 \rfloor}
+\newcommand{norm}[1]{\lVert #1 \rVert}
+
+\newcommand{bpar}[1]{\big ( #1 \big )}
+\newcommand{bcur}[1]{\big \{ #1 \big \}}
+\newcommand{bsq}[1]{\big [ #1 \big ]}
+\newcommand{Bpar}[1]{\Big ( #1 \Big )}
+\newcommand{Bcur}[1]{\Big \{ #1 \Big \}}
+\newcommand{Bsq}[1]{\Big [ #1 \Big ]}
+
+% capitals letters shorthand, mostly mathbb; option to overwrite default empty with superscript
+\newcommand{B}[1][\ ]{\{0,1\}^{#1}}
+\newcommand{C}[1][\ ]{\mathbb C^{#1}}
+\newcommand{F}[1][\ ]{\mathbb F^{#1}}
+\newcommand{G}[1][\ ]{\mathbb G^{#1}}
+\newcommand{N}[1][\ ]{\mathbb N^{#1}}
+\newcommand{Q}[1][\ ]{\mathbb Q^{#1}}
+\newcommand{R}[1][\ ]{\mathbb R^{#1}}
+\newcommand{Z}[1][\ ]{\mathbb Z^{#1}}
+
+% greek adjustments
+\newcommand{phi}{\varphi}
+\newcommand{eps}{\varepsilon}
+
+% convenient shorthand for script fonts. 
+% Overlaps with quick-latex-for-obsidian space-shortcut functionality.
+% e.g. the unwanted default behavior: $\bb affects the rest of the line$
+% desired behavior: $\bb {just this} not this$
+\newcommand{bb}[1]{\mathbb #1}
+\newcommand{cal}[1]{\mathcal #1}
+\newcommand{frak}[1]{\mathfrak #1}
+\newcommand{sf}[1]{\mathsf #1}
+\newcommand{scr}[1]{\mathscr #1}
+\newcommand{sf}[1]{\mathsf #1}
+
+% logic
+\newcommand{xor}{\oplus}
+
+% probability
+\newcommand{binomialsum}[3][n]{\sum\limits_{i=0}^{#1} {#1 \choose i}#2^i #3^{#1-i}}
+
+% calculus
+\newcommand{limty}[1]{\lim_{#1 \to\infty}}
+
+% misc operators
+\newcommand{null}{\mathsf{null}}
+\newcommand{upar}[2]{#1^{(#2)}}
+\newcommand{dpar}[2]{#1_{(#2)}}
+
+% HEY READER! I copy-pasted this stuff from my vault that you may not want, but do as you please.
+
+ %%%%%%%%%%%%%%%%
+%% CRYPTOGRAPHY %%
+ %%%%%%%%%%%%%%%%
+
+% cryptography operators
+\newcommand{com}{\mathsf{com}}
+\newcommand{eq}{\mathsf{eq}}
+\newcommand{gen}{\mathsf{gen}}
+\newcommand{hash}{\mathsf{hash}}
+\newcommand{id}{\mathsf{id}}
+\newcommand{open}{\mathsf{open}}
+\newcommand{out}{\mathsf{out}}
+\newcommand{perm}{\mathsf{perm}}
+\newcommand{srs}{\mathsf{srs}}
+\newcommand{state}{\mathsf{state}}
+\newcommand{ver}{\mathsf{ver}}
+
+% mathcal, mathsf
+\newcommand{Ac}{\mathcal A}
+\newcommand{Cc}{\mathcal C}
+\newcommand{Fc}{\mathcal F}
+\newcommand{Ic}{\mathcal I}
+\newcommand{Pc}{\mathcal P}
+\newcommand{Rc}{\mathcal R}
+\newcommand{Vc}{\mathcal V}
+
+\newcommand{Fs}{\mathsf F}
+\newcommand{Ps}{\mathsf P}
+\newcommand{Vs}{\mathsf V}
+
+% misc
+\newcommand{acc}{\mathsf{acc}}
+\newcommand{ck}{\mathsf{ck}}
+\newcommand{PLONK}{\mathcal{P}\mathfrak{lon}\mathcal{K}}
+\newcommand{pp}{\mathsf{pp}}
+\newcommand{pf}{\mathsf{pf}}
+\newcommand{vp}{\mathsf{vp}}
+\newcommand{vk}{\mathsf{vk}}
+\newcommand{Flt}[2]{\mathbb F_{\lt #1}[#2]}

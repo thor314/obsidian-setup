@@ -165,8 +165,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,13 +192,16 @@
   "active": "72365898a18bf9bc",
   "lastOpenFiles": [
     "README.md~",
+    "periodic/journal/j-2023-12-22.md",
+    "Getting Started with Obsidian.md",
+    "periodic/journal/j-2023-12-21.md",
+    "b",
+    "bak",
+    "templates/journal.md",
     "media/image",
     "media/image/Getting Started with Obsidian-1703198611566.jpeg",
-    "Getting Started with Obsidian.md",
-    "templates/journal.md",
     "me-Day in a Sentence.md",
     "Untitled.md",
-    "periodic/journal/j-2023-12-21.md",
     "periodic/journal/j-2023-05-31.md",
     "README.md",
     "notes/reference/example reference.md",

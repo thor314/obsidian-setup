@@ -1,5 +1,5 @@
 ---
-creation-date: 2022-11-06 16:03
+creation-date: 2022-11-06
 ---
 # Getting Started with Obsidian
 ```toc
@@ -16,7 +16,7 @@ Obsidian's customizability and plugins allow you to make the application experie
 Obsidian is close in spirit to Notion, another note-taking and general organization tool that you may have used, which provides useful comparison. Obsidian is like Notion, if it were local-first (lives on your file system) and Markdown based (not Notion's proprietary file format). This makes Obsidian well suited for personal tasks like journaling, note-taking, and self-organization.
 
 On the other hand, Obsidian is *not* well suited for:
-- Collaborative organization and knowledge bases: Obsidian lives on your file system, not in the cloud (the developers offer cloud hosting and syncing for a \$100 annual subscription.) If you want collaborative markdown a la Google Docs, consider trying out HackMD book feature.
+- Collaborative organization and knowledge bases: Obsidian lives on your file system, not in the cloud (the developers offer cloud hosting and syncing for a \$100 annual subscription.) If you want collaborative markdown a la Google Docs, consider trying out HackMD's book feature.
 - Mobile-first experiences: Even with the premium cloud sync, Obsidian's mobile experience is functional, but not phenomenal. I open Obsidian on my phone for grocery lists, or sometimes journal voice memos with speech-to-text, but not much else.
 - Tables, spreadsheets, databases: Obsidian can do these things, but Markdown wasn't designed for these features in mind. Setting these up is more involved than just using a Notion database or spreadsheet; I typically use Google spreadsheets for my own data tracking purposes.
 - Website hosting: Notion has great website hosting options. For a \$200 per year premium, Obsidian Publish's website offering is okay, but not impressive. However, since you're working with Markdown, you may just copy your files into a static site generator, or otherwise, export them to whatever other format you may desire.
@@ -29,11 +29,9 @@ To acknowledge my own preferences, I am a mathematical software developer; I pre
 - self-organization
 - general writing
 
-I'll describe how you might use Obsidian for each of these in part 2.
+I'll describe how you might use Obsidian for each of these in part 2. We'll go over Obsidian in three parts.
 
-We'll go over Obsidian in three parts.
-
-In **Part One**, we'll address a few key ideas, settings, and plugins. Part One is intended to serve as a reasonable 15 minute introduction to setting up Obsidian, and a highlight some philosophy about how you might want to set up your vault.
+In **Part One**, we'll address a few key ideas, settings, and plugins. Part One is intended to serve as a reasonable 15 minute introduction to setting up Obsidian, and to highlight some philosophy about how you might want to set up your vault.
 
 In **Part Two**, we'll talk about how to use Obsidian for the work flows described above. This section aims to be a guided tour through ways that I use Obsidian, and inspiration for how you might set Obsidian up for your own uses.
 
@@ -49,27 +47,25 @@ I will mention a handful of recommended community plugins in this section, all o
 ### Getting started
 Take a couple minutes to play around with the basic Markdown document. See the [Obsidian Markdown Guide](https://www.markdownguide.org/tools/obsidian/) for a full list of supported Markdown features. If a feature you would like is not supported, there may be a plugin that extends Obsidian with that feature.
 
-Make a new file, and play with the buttons on the sidebars. Some very useful hotkeys are:
+Make a new file, and play with the buttons on the sidebars. I've made some modifications to the defaults, only a few of these come as default. Some very useful hotkeys are:
 - **Ctrl-P** bringing up the command palette
 - **f1** or **Ctrl-,** for settings
-- **Ctrl-O** to open a new file
- - **Ctrl-N** to create a note from a template
+- **Ctrl-N** to create a note from a template
+- **Alt-O** to open a new file (rebound from Ctrl-o to Alt-o, so that I can use vim Ctrl-o/i)
 - **f2** to rename a note
 - **Ctrl-M** to mark a list item as a todo checkbox
-
-I've also set some of my own hotkey suggestions:
 - **f3** and **f4** to toggle the left and right sidebars
- - **f12** to open a daily note, and  **Ctrl-f12** to edit the daily note template
  - **Ctrl-Alt-S** to recover note that you deleted by accident (or see Sync plugin settings, if you buy the premium)
  - **Ctrl-Alt-W** to delete a note
  - **Ctrl-Alt-R** to reload the editor, if something seems weirdly rendered
  - **Alt-,** and **Alt-.** to go to the previous note and vice versa
  - **Alt-R** to refile (move) a file to another folder
  - **Alt-H** while over a heading to toggle folding for everything underneath that header
+ - **f12** to open a daily note, and  **Ctrl-f12** to edit the daily note template
 
 You may set your own hotkey settings from within the settings panel.
 
-If you're a terminal jockey, you may notice that the vault will reflect changes you make in the vault filesystem location. This may be useful if you intend to write scripts for your vault.
+If you're a terminal jockey, you may notice that the vault will reflect changes you make in the vault filesystem location. This may be useful if you intend to write scripts for your vault. When poking files like `.obsidian.vimrc` or `.preamble.sty`, you may have to reload the app before you observe changes.
 
 Before diving into settings, it is worth highlighting some useful basic features and plugins: **tags**, **folders**, **links**, **templating**, and **hotkeys to files**.
 
@@ -101,16 +97,16 @@ alias: another-name-for-this-file
 ---
 ```
 
-Where `my-metadata` and `rating` are just a demo that you can create your own metadata fields. `alias` specifies alternate titles for your note when searching your vault. Tags are useful for grouping notes by topic, or with any other categorization system you prefer.
+`my-metadata` and `rating` are just a demo that you can create your own metadata fields. `alias` specifies alternate titles for your note when searching your vault. Tags are useful for grouping notes by topic, or with any other categorization system you prefer.
 
 #### Links
 Notes may link between one another with \[\[square brackets\]\], or annotated links with brackets with a pipe: \[\[note name|what appears in the file\]\]. Links to other files may also be visually included in a note with a leading exclamation point \!\[\[note-title\]\], though I don't much care for this feature.
 
 You may also see other notes that link to your current note (Ctrl-P Show backlinks).
 
-Links within the vault Obsidian users may visualize all the linkages in their vault with a graph. I find the visual graph to be more eye-candy than useful; but the process of thinking about my notes as concepts in a graph of related topics as *maybe useful* structure for organizing my thoughts.
+Obsidian users may visualize all the linkages in their vault with the graph (Ctrl-Shift-G). I find the visual graph to be more eye-candy than useful; but the process of thinking about my notes as concepts in a graph of related topics as *maybe useful* structure for organizing my thoughts.
 
-Some Obsidian users seem to love their note graph. I find graph-based note taking barely worthwhile enough to continue with, and it may just be momentum keeping me going. More to say on this in part 2. Take notes how you'd like, but know that you can link between your notes.
+Some Obsidian users love their note graph. I find graph-based note taking just worthwhile enough to continue with. More to say on this in part 2. Take notes how you'd like, but know that you can link between your notes.
 
 #### Templates and Templater
 Obsidian comes with the **Templates** plugin, for time and date templating. For everything else, [Templater](obsidian://show-plugin?id=templater-obsidian) is the powered up community templating plugin. [repo](https://github.com/SilentVoid13/Templater), [docs](https://silentvoid13.github.io/Templater/).
@@ -123,7 +119,7 @@ I've written a sample template for you at [[journal]]. You can click that link w
 - using Templater to set the initial cursor location at time of note creation
 - using Templates to create a timestamp
 
-Create your own templates within in the template directory to add them to the list of templates you may select from with **Ctrl-N**.
+Create your own templates and move them to the template directory to add them to the list of templates you may select from with **Ctrl-N**.
 
 ##### Aside on file naming
 I follow a particular naming convention for my notes that makes it easier to determine what template I used to generate a note (and therefore what type of note it is) from looking at the filename. For example:
@@ -133,17 +129,17 @@ I follow a particular naming convention for my notes that makes it easier to det
 - misc observation note: `note-something I thought about`
 - definition of a term: `term-Fast Fourier Transform`
 
-This typically duplicates whatever tag you used, but I find the scheme convenient, especially for identifying blog-type files that accidentally ended up in my journal directory. You may find it convenient as well.
+This typically duplicates whatever tag was used, but I find the scheme convenient, especially for identifying misfiled notes.
 
 #### Hotkeys for Specific Files
-Finally, worth mentioning before we dive into settings is the community plugin **Hotkeys for Specific Files**, which you'll find in Settings, a short scroll down through community plugins.
+Finally, worth mentioning before we dive into settings is the community plugin **Hotkeys for Specific Files**, which you'll find in Settings, a short scroll down through community plugins. Hotkeys are useful for making your workflow seamless.
 
 I assign hotkeys for files I revisit regularly, for example:
 - templates for journaling and periodic review
 - self-organization notes, like my todo backlog, reading list, project planning and organization, writing ideas, etc.
 - any other note that I want to regularly revisit
 
-Hotkeys are useful for making your workflow seamless. Any note that I revisit often gets a hotkey, typically bound to Alt or Ctrl-Alt {1-9}.
+Any note that I revisit often gets a hotkey, typically bound to Alt or Ctrl-Alt {1-9}.
 
 ### Settings
 You may prefer to read this section in the browser so that you may follow along in your Obsidian client. I will only highlight settings I consider useful, or else, those which are superceded by a community plugin.
@@ -151,7 +147,8 @@ You may prefer to read this section in the browser so that you may follow along 
 #### Some Sane Defaults
 - **Editor**:
     - spellcheck, overlaps with [LanguageTool](obsidian://show-plugin?id=obsidian-languagetool-plugin), which also checks grammar. I toggle on spellchecking for writing I intend to publish.
-    - properties in document changes how metadata is displayed. I prefer to see my metadata as raw markdown.
+    - properties in document: changes how metadata is displayed. I prefer to see my metadata as raw markdown.
+    - auto-pair symbols: I find this more annoying than useful.
     - vim mode - configurable via the [vimrc](obsidian://show-plugin?id=obsidian-vimrc-support) plugin. Without vim bindings, Obsidian would be much less {powerful,convenient,fun} for me. This vault comes with my `.obsidian.vimrc`, in which I recommend a few further settings.
 - **Files and Links**:
     - Move deleted files to Obsidian `.trash` folder instead of deleting, makes for easy recovery

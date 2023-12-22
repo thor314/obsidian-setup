@@ -26,11 +26,10 @@
     }
   ],
   "url-into-selection:paste-url-into-selection": [],
-  "editor:insert-embed": [],
   "darlal-switcher-plus:switcher-plus:open": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "O"
     }
@@ -178,7 +177,7 @@
   "obsidian-smarter-md-hotkeys:smarter-asterisk-italics": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "I"
     }
@@ -432,14 +431,6 @@
     }
   ],
   "editor:insert-link": [],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "O"
-    }
-  ],
   "omnisearch:show-modal-infile": [
     {
       "modifiers": [
@@ -665,6 +656,24 @@
         "Mod"
       ],
       "key": "S"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "graph:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
     }
   ]
 }

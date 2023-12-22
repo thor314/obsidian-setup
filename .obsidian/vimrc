@@ -1,7 +1,12 @@
+""" Thor's Obsidian vimrc
 " generally refer to: https://github.com/esm7/obsidian-vimrc-support
 " To test file, write file and run "reload app without saving"
 " 
-" To use an obsidian command (see back, forward example):
+" I prefer to keep this in the .obsidian configuration directory and symlink to it
+" So as to keep configuration files all in one place (and so github doesn't think my vault is 100% vimscript)
+" $VAULT/.obsidian.vimrc -> $VAULT/.obsidian/vimrc
+"
+" To use an Obsidian command (see back, forward example):
 " - Use Ctrl+Shift+I to open the dev console
 " - reload and type :obcommand. The names are now in the Console (2nd tab).
 " - note, can't rebind exmap-obmap commands with map
@@ -10,25 +15,25 @@
 " Note about `surround`: as of 2022-05-20, surround does not work, and is janky
 " anyhow, but there's a fix coming, eventually, maybe.
 
-
-" Yank to system clipboard https://forum.obsidian.md/t/how-to-copy-with-vim-mode/3881
-set clipboard=unnamed
-
-" alt escapes if I forget to escape
+""" General Vim Keybindings
+" escapes if I forget to escape
 imap jj <Esc> 
 imap kk <Esc>
+imap jk <Esc>
+imap kj <Esc>
 
-" Bind C-u, C-d (up, down) to Shift-U and shift-D, so that C-u and C-d can be used for normal Obsidian hotkeys.
-" Use C-z, C-S-z for undo/redo.
-nmap U <C-u>
-nmap D <C-d>
-" free up C-r for search-replace, set redo to vim-redo
-nmap <C-Z> <C-r> 
-" Bind C-o, C-i (jump back, forward) to Shift-E and shift-B for same
-nmap E <C-i>
-nmap B <C-o>
+" Undo, Redo, and Navigate inside page:
+" Don't overwrite <C-u> or <C-d> for file movement, or <C-o>,<C-i> for back/forward movement within document. 
+" <C-r> is for search-replace. u/U for undo/redo. Also Ctrl-z/Z native app.
+nmap U :redo
+vmap <C-r> :s/
+nmap <C-r> <C-a>:s/
 
-" Since C-o is taken, use the following for go-back/forward.
+" for replacing OpenAI style \( \) with latex $
+nmap <leader>r :%s/(\\\(\s|\s\\\))/$/g
+nmap <leader>R :%s/(\\\[\s|\s\\\])/$$$/g
+
+" Navigate Forward and Back between pages:
 " This mapping repeats a mapping in the in-app hotkeys menu for demonstration; the in-app menu overwrites mappings here.
 exmap back obcommand app:go-back
 nmap <A-,> :back
@@ -38,21 +43,29 @@ nmap <A-.> :forward
 " enable select all with C-a
 unmap <C-a>
 
-" be able to type gL or dL to delete rest of line
-nmap H ^
-omap H ^
-nmap L $
-omap L $
+" Must use map, not omap, to get these to work in visual mode
+map H ^ 
+map L $
 
 " transpose, shift case
-nmap t xhhpll 
+nmap t xhPl 
 nmap T ~ 
 
-" Example leader mapping, set '-' as leader
+" nope:
+
+" Example leader mapping, set 'Space' as leader
 " may migrate to this if the Leader-Hotkeys normal-mode bug isn't fixed
-nmap - <leader>
+nmap <Space> <leader>
 nmap <leader>j 4j
 nmap <leader>k 4k
+nmap <leader>i <C-i>
+nmap <leader>o <C-o>
+nmap <leader>. :forward
+nmap <leader>, :back
+
+""" Settings
+" Yank to system clipboard https://forum.obsidian.md/t/how-to-copy-with-vim-mode/3881
+set clipboard=unnamed
 
 """ Trash
 " - useless, not sure how to get rid of Obsidian's persistent search highlight, except hit esc every time
