@@ -23,3 +23,10 @@ Plugins are great, and I will recommend many of them. They're also a security ri
 community plugins I install or recommend are out to pwn your system, but I could be wrong. To my knowledge, the Obsidian
 developers do audit community plugins for security concerns, but they could miss something. Consider being cautious of
 newer plugins with fewer installs.
+
+### Changelog
+Roughly bi-annual updates to this vault since end of 2022.
+- future: probably worth revisiting part 3 but it looked to be in decent shape, and eventually figuring out how to use Dataview better if I ever get around to it
+- 2023-12-21 - rewrote a good portion of parts 1 and 2, reduced cruft, made workflow descriptions clearer, update vimrc
+- 2023-05-31 - how was I this bad at writing...added a few plugins, gcal, hotkey helper, latex preamble
+- 2022-11-17 - first draft finished
