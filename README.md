@@ -43,5 +43,3 @@ amend the sections on these plugins:
 - extended mathjax
 - quick latex 
 - Math booster?
-- quickadd
-- zotero integration

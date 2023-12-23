@@ -86,7 +86,7 @@ columns:
     skipPersist: false
     csvCandidate: false
     position: 5
-    isHidden: false
+    isHidden: true
     sortIndex: -1
     config:
       enable_media_view: true
@@ -97,24 +97,22 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  meme-vibe:
+  meme-tags:
     input: tags
-    accessorKey: meme-vibe
-    key: meme-vibe
-    id: meme-vibe
-    label: meme-vibe
-    position: 4
+    accessorKey: meme-tags
+    key: meme-tags
+    id: meme-tags
+    label: meme-tags
+    position: 100
     skipPersist: false
     isHidden: false
-    sortIndex: 1
-    width: 153
-    isSorted: true
-    isSortedDesc: true
+    sortIndex: -1
+    width: 393
     options:
-      - { label: "accomplishment", value: "accomplishment", color: "hsl(179, 95%, 90%)"}
-      - { label: "upset", value: "upset", color: "hsl(160, 95%, 90%)"}
-      - { label: "programming", value: "programming", color: "hsl(264, 95%, 90%)"}
-      - { label: "derp", value: "derp", color: "hsl(121, 95%, 90%)"}
+      - { label: "accomplishment", value: "accomplishment", color: "hsl(24, 95%, 90%)"}
+      - { label: "upset", value: "upset", color: "hsl(247, 95%, 90%)"}
+      - { label: "programming", value: "programming", color: "hsl(92, 95%, 90%)"}
+      - { label: "derp", value: "derp", color: "hsl(248, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -126,7 +124,7 @@ columns:
       persist_changes: false
 config:
   remove_field_when_delete_column: false
-  cell_size: normal
+  cell_size: compact
   sticky_first_column: false
   group_folder_column: 
   remove_empty_folders: false

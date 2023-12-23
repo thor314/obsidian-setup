@@ -3,10 +3,6 @@
     {
       "useMoment": false,
       "file": "templates/journal.md"
-    },
-    {
-      "useMoment": false,
-      "file": ""
     }
   ],
   "useExistingPane": true,
