@@ -16,6 +16,7 @@ In particular, I discuss how to use Obsidian for:
 - project and task management
 - self-organization
 - general writing 
+- meme foldering
 
 To get started, clone this repository as a starter template repository for your own uses. The repo contains an `.obsidian` and `.obsidian.vimrc` configuration with the settings and plugins I use, and the *Getting Started with Obsidian* post. 
 

@@ -33,6 +33,7 @@ To acknowledge my own preferences, I am a mathematical software developer; I pre
 - project and light task management
 - self-organization
 - general writing
+- meme foldering
 
 I'll describe how you might use Obsidian for each of these in part 2. We'll go over Obsidian in three parts.
 
@@ -204,6 +205,7 @@ Next up, we'll walk through some workflows of how to use Obsidian for:
 - project and task management
 - self-organization
 - general writing
+- meme-foldering: see part 3: DB Folder
 
 I'll assume you've at least skimmed part one, which gave a bit of basic philosophy for how to set up your vault.
 
