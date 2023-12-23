@@ -45,7 +45,7 @@
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "templates/j-{{date}}.md"
+        "template": "templates/journal.md"
       },
       "format": {
         "enabled": false,
@@ -53,7 +53,7 @@
       },
       "insertAfter": {
         "enabled": true,
-        "after": "## 📜 Tasks 📜 ",
+        "after": "## 📜 Tasks",
         "insertAtEnd": true,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
@@ -109,7 +109,7 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "self/task-backlog.md",
+      "captureTo": "org/task-backlog.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": false,

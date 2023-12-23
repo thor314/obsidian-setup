@@ -3,6 +3,14 @@
     {
       "basename": "Getting Started with Obsidian",
       "path": "Getting Started with Obsidian.md"
+    },
+    {
+      "basename": "task-backlog",
+      "path": "org/task-backlog.md"
+    },
+    {
+      "basename": "journal",
+      "path": "templates/journal.md"
     }
   ],
   "omittedPaths": [

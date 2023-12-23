@@ -41,7 +41,7 @@
     "filesystem",
     "Breadcrumbs"
   ],
-  "autoPairMarkdown": true,
+  "autoPairMarkdown": false,
   "showInlineTitle": false,
   "propertiesInDocument": "source",
   "autoPairBrackets": false,

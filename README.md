@@ -26,9 +26,24 @@ newer plugins with fewer installs.
 
 ### Changelog
 Roughly bi-annual updates to this vault since end of 2022.
-- future: didn't touch the part 3 sections from graph tools and farther on. 
-- future: eventually figuring out how to use Dataview better 
 - 2023-12-22 - tweet got some attention so did one more light editing pass and cleaned up vimrc + preamble.sty. Then cleaned up part 3.
 - 2023-12-21 - rewrote a good portion of parts 1 and 2, reduced cruft, made workflow descriptions clearer, update vimrc
 - 2023-05-31 - how was I this bad at writing...added a few plugins, gcal, hotkey helper, latex preamble
 - 2022-11-17 - first draft finished
+
+### Todo: 
+- future: didn't touch the part 3 sections from graph tools and onwards
+- future: eventually figuring out how to use Dataview better
+
+amend the sections on these plugins:
+- db folder
+- projects
+- dataview 
+- linter
+- leader hotkeys
+- extended mathjax
+- tikzjax
+- quick latex 
+- Math booster?
+- quickadd
+- zotero integration
