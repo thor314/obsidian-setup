@@ -37,7 +37,7 @@
 }
 
 /* Hide meta */
-.hider-meta .frontmatter-container {
+.hider-meta .markdown-reading-view .metadata-container {
   display:none;
 }
 
@@ -71,3 +71,7 @@
   display:none;
 }
 
+/* Hide file nav header */
+.hider-file-nav-header .workspace-leaf-content[data-type=file-explorer] .nav-header {
+  display: none;
+}

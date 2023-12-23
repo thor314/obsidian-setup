@@ -3,9 +3,14 @@
   --symbol-indent-padding: 12px;
 }
 
+.qsp-filter-active {
+  color: var(--text-accent);
+}
+
 /* suggestion file path icon */
 .qsp-path-indicator {
-  margin-right:4px;
+  margin-right: 4px;
+  vertical-align: middle;
 }
 
 /* symbol suggestion, symbol type icon */
@@ -98,12 +103,6 @@
 /* related item suggestion */
 .qsp-suggestion-related {}
 
-/* starred suggestion item */
-.qsp-suggestion-starred {}
-
-/* indicates that an item represents a starred file */
-.qsp-starred-file {}
-
 /* symbol suggestion item */
 .qsp-suggestion-symbol {}
 
@@ -112,6 +111,9 @@
 
 /* file suggestion when not in standard mode */
 .qsp-suggestion-file {}
+
+/* alias suggestion when not in standard mode */
+.qsp-suggestion-alias {}
 
 /* suggestion primary content container */
 .qsp-content {}
@@ -140,8 +142,8 @@
 /* flair icon for suggestions that represent a related file */
 .qsp-related-indicator {}
 
-/* flair icon for suggestions that represent a starred file */
-.qsp-starred-indicator {}
+/* flair icon for suggestions that represent an alias */
+.qsp-alias-indicator {}
 
 /* headings level */
 .qsp-headings-l1 {}

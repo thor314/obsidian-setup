@@ -1,0 +1,15 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Getting Started with Obsidian",
+      "path": "Getting Started with Obsidian.md"
+    }
+  ],
+  "omittedPaths": [
+    "\\.png$",
+    "\\.jpg$",
+    "\\.jpeg$"
+  ],
+  "maxLength": null,
+  "openType": "tab"
+}

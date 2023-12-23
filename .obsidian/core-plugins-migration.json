@@ -1,5 +1,5 @@
 {
-  "file-explorer": true,
+  "file-explorer": false,
   "global-search": true,
   "switcher": false,
   "graph": true,
@@ -16,15 +16,15 @@
   "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
-  "outline": false,
+  "outline": true,
   "word-count": false,
   "slides": false,
   "audio-recorder": false,
-  "workspaces": true,
+  "workspaces": false,
   "file-recovery": true,
   "publish": false,
   "sync": false,
-  "canvas": true,
-  "bookmarks": true,
+  "canvas": false,
+  "bookmarks": false,
   "properties": false
 }

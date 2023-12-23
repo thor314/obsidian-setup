@@ -54,7 +54,7 @@
   background-color: var(--interactive-accent) !important;
   color: var(--text-on-accent);
   padding: 4px 9px !important;
-  max-width: 200px !important;
+  max-width: 100% !important;
   border: 1px solid var(--background-modifier-border);
   border-radius: 8px 8px 2px 2px;
   border-bottom: 0px;
@@ -128,17 +128,98 @@
 /** Hide linter element css 
  * Based on https://zellwk.com/blog/hide-content-accessibly/
  */
-
 .linter-navigation-item:not(.linter-navigation-item-selected) > span:nth-child(2),
 .linter-visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
   clip-path: rect(0 0 0 0);
-  height: auto; /* new - was 1px */
-  margin: 0; /* new - was -1px */
+  height: auto;
+  margin: 0;
   overflow: hidden;
   padding: 0;
   position: absolute;
   width: 1px;
-  white-space: nowrap; /* 1 */
+  white-space: nowrap;
+}
+
+/**
+* Full-width text areas
+* Based on https://github.com/nyable/obsidian-code-block-enhancer/blob/bb0c636c1e7609b6d26c48a8d7ca15d5cd9abdcf/src/styles/index.scss
+*/
+textarea.full-width {
+  width: 100%;
+  min-height: 10em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.full-width-textbox-input-wrapper {
+  position: relative;
+}
+
+.settings-copy-button {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  margin: 0 0 0 auto;
+  padding: 4px;
+}
+
+.settings-copy-button svg.linter-clipboard path {
+  fill: var(--text-faint);
+}
+.settings-copy-button svg.linter-success path {
+  fill: var(--interactive-success);
+}
+.settings-copy-button:hover, .settings-copy-button:active {
+  cursor: pointer;
+}
+.settings-copy-button:hover svg path, .settings-copy-button:active svg path {
+  fill: var(--text-accent-hover);
+  transition: all ease 0.3s;
+}
+.settings-copy-button:focus {
+  outline: 0;
+}
+
+/**
+* Custom regex replacement
+*/
+.linter-custom-regex-replacement-container div:last-child{
+  border: none;
+}
+.linter-custom-regex-replacement {
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: var(--hr-thickness) solid;
+  border-color: var(--hr-color);
+}
+.linter-custom-regex-replacement-row2 {
+  flex-wrap: wrap;
+}
+.linter-custom-regex-replacement-normal-input {
+  width: 40%;
+}
+.linter-custom-regex-replacement-flags {
+  width: 15%;
+}
+.linter-custom-regex-replacement-label {
+  flex-direction: row-reverse;
+}
+.linter-custom-regex-replacement-label-input {
+  width: 50%;
+}
+
+/**
+* Setting item no border
+*/
+.linter-no-border {
+  border: none;
+}
+
+/**
+* Custom row
+*/
+.custom-row-description {
+  margin-top: 0px;
 }

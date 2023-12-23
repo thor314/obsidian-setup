@@ -1,0 +1,297 @@
+{
+  "version": "2.0.0",
+  "onOpenPreferNewTab": false,
+  "alwaysNewTabForSymbols": false,
+  "useActiveTabForSymbolsOnMobile": false,
+  "symbolsInLineOrder": true,
+  "editorListCommand": "edt ",
+  "symbolListCommand": "@",
+  "symbolListActiveEditorCommand": "$ ",
+  "workspaceListCommand": "+",
+  "headingsListCommand": "#",
+  "bookmarksListCommand": "'",
+  "commandListCommand": ">",
+  "relatedItemsListCommand": "~",
+  "relatedItemsListActiveEditorCommand": "^ ",
+  "strictHeadingsOnly": false,
+  "searchAllHeadings": true,
+  "headingsSearchDebounceMilli": 250,
+  "excludeViewTypes": [
+    "empty"
+  ],
+  "referenceViews": [
+    "backlink",
+    "localgraph",
+    "outgoing-link",
+    "outline"
+  ],
+  "limit": 50,
+  "includeSidePanelViewTypes": [
+    "backlink",
+    "image",
+    "markdown",
+    "pdf"
+  ],
+  "enabledSymbolTypes": {
+    "1": true,
+    "2": true,
+    "4": true,
+    "8": true,
+    "16": true
+  },
+  "selectNearestHeading": true,
+  "excludeFolders": [],
+  "excludeLinkSubTypes": 0,
+  "excludeRelatedFolders": [
+    ""
+  ],
+  "excludeOpenRelatedFiles": false,
+  "excludeObsidianIgnoredFiles": false,
+  "shouldSearchFilenames": false,
+  "shouldSearchBookmarks": false,
+  "pathDisplayFormat": 3,
+  "hidePathIfRoot": true,
+  "enabledRelatedItems": [
+    "disk-location",
+    "backlink",
+    "outgoing-link"
+  ],
+  "showOptionalIndicatorIcons": true,
+  "overrideStandardModeBehaviors": true,
+  "enabledRibbonCommands": [
+    "HeadingsList",
+    "SymbolList"
+  ],
+  "fileExtAllowList": [
+    "canvas"
+  ],
+  "matchPriorityAdjustments": {
+    "isEnabled": false,
+    "adjustments": {
+      "isOpenInEditor": {
+        "value": 0,
+        "label": "Open items"
+      },
+      "isBookmarked": {
+        "value": 0,
+        "label": "Bookmarked items"
+      },
+      "isRecent": {
+        "value": 0,
+        "label": "Recent items"
+      },
+      "isAttachment": {
+        "value": 0,
+        "label": "Attachment file types"
+      },
+      "file": {
+        "value": 0,
+        "label": "Filenames"
+      },
+      "alias": {
+        "value": 0,
+        "label": "Aliases"
+      },
+      "unresolved": {
+        "value": 0,
+        "label": "Unresolved filenames"
+      },
+      "h1": {
+        "value": 0,
+        "label": "H₁ headings"
+      }
+    },
+    "fileExtAdjustments": {
+      "canvas": {
+        "value": 0,
+        "label": "Canvas files"
+      }
+    }
+  },
+  "quickFilters": {
+    "resetKey": "0",
+    "keyList": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "modifiers": [
+      "Ctrl",
+      "Alt"
+    ],
+    "facetList": {
+      "Heading": {
+        "id": "Heading",
+        "mode": 4,
+        "label": "headings",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "Tag": {
+        "id": "Tag",
+        "mode": 4,
+        "label": "tags",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "Callout": {
+        "id": "Callout",
+        "mode": 4,
+        "label": "callouts",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "Link": {
+        "id": "Link",
+        "mode": 4,
+        "label": "links",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "Embed": {
+        "id": "Embed",
+        "mode": 4,
+        "label": "embeds",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "canvas-node-file": {
+        "id": "canvas-node-file",
+        "mode": 4,
+        "label": "file cards",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "canvas-node-text": {
+        "id": "canvas-node-text",
+        "mode": 4,
+        "label": "text cards",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "canvas-node-link": {
+        "id": "canvas-node-link",
+        "mode": 4,
+        "label": "link cards",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "canvas-node-group": {
+        "id": "canvas-node-group",
+        "mode": 4,
+        "label": "groups",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "backlink": {
+        "id": "backlink",
+        "mode": 128,
+        "label": "backlinks",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "outgoing-link": {
+        "id": "outgoing-link",
+        "mode": 128,
+        "label": "outgoing links",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "disk-location": {
+        "id": "disk-location",
+        "mode": 128,
+        "label": "disk location",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "bookmarks-file": {
+        "id": "bookmarks-file",
+        "mode": 32,
+        "label": "files",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "bookmarks-folder": {
+        "id": "bookmarks-folder",
+        "mode": 32,
+        "label": "folders",
+        "isActive": false,
+        "isAvailable": true
+      },
+      "bookmarks-search": {
+        "id": "bookmarks-search",
+        "mode": 32,
+        "label": "searches",
+        "isActive": false,
+        "isAvailable": true
+      }
+    },
+    "shouldResetActiveFacets": false,
+    "shouldShowFacetInstructions": true
+  },
+  "preserveCommandPaletteLastInput": false,
+  "preserveQuickSwitcherLastInput": false,
+  "shouldCloseModalOnBackspace": false,
+  "maxRecentFileSuggestionsOnInit": 25,
+  "orderEditorListByAccessTime": true,
+  "insertLinkInEditor": {
+    "isEnabled": true,
+    "keymap": {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "i",
+      "purpose": "insert in editor"
+    },
+    "insertableEditorTypes": [
+      "markdown"
+    ],
+    "useBasenameAsAlias": true,
+    "useHeadingAsAlias": true
+  },
+  "removeDefaultTabBinding": true,
+  "navigationKeys": {
+    "nextKeys": [
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "n"
+      },
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "j"
+      }
+    ],
+    "prevKeys": [
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "p"
+      },
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "k"
+      }
+    ]
+  },
+  "preferredSourceForTitle": "H1",
+  "closeWhenEmptyKeys": [
+    {
+      "modifiers": null,
+      "key": "Backspace"
+    }
+  ],
+  "escapeCmdChar": "!"
+}

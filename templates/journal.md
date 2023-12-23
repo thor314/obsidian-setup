@@ -8,9 +8,9 @@ last-modified: `$= dv.current().file.mtime`
 ## 📜 Tasks: <% tp.file.cursor() %>
 - [ ] 30m self-care in the morning
 ### overflow
-- [ ] something to do tomorrow 
+- [ ] something to do tomorrow
 ### misc
 - [ ] oh I just thought about doing this thing
-## Main thing: 
+## Main thing:
 - [ ] write: [[Getting Started with Obsidian]]
 ## HELLO 🪁✨ {{time}}

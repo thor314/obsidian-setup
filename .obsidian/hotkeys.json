@@ -658,15 +658,6 @@
       "key": "S"
     }
   ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ],
   "graph:open": [
     {
       "modifiers": [
@@ -674,6 +665,16 @@
         "Shift"
       ],
       "key": "G"
+    }
+  ],
+  "global-search:open": [],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
     }
   ]
 }

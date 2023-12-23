@@ -1,6 +1,14 @@
 {
   "files": [
-    "templates/journal.md"
+    {
+      "useMoment": false,
+      "file": "templates/journal.md"
+    },
+    {
+      "useMoment": true,
+      "file": "t\\e\\s\\t-YY-MM-DD.md"
+    }
   ],
-  "useExistingPane": true
+  "useExistingPane": true,
+  "useHoverEditor": false
 }

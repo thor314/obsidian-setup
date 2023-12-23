@@ -3,5 +3,7 @@
   "urlMode": "standard",
   "glassBg": false,
   "shouldAutoCheck": false,
-  "pickyMode": false
+  "autoCheckDelay": 3000,
+  "pickyMode": false,
+  "ruleOtherDisabledRules": "EN_COMPOINDS"
 }
