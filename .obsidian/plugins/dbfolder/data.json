@@ -13,7 +13,7 @@
   },
   "local_settings": {
     "remove_field_when_delete_column": false,
-    "cell_size": "normal",
+    "cell_size": "compact",
     "sticky_first_column": false,
     "group_folder_column": "",
     "remove_empty_folders": false,
@@ -33,7 +33,7 @@
     "pagination_size": 10,
     "enable_js_formulas": false,
     "formula_folder_path": "/",
-    "inline_default": false,
+    "inline_default": true,
     "inline_new_position": "top",
     "date_format": "yyyy-MM-dd",
     "datetime_format": "yyyy-MM-dd HH:mm"

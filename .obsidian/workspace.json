@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c57d32e2dfa78334",
+        "id": "078fb41b889417f9",
         "type": "tabs",
         "children": [
           {
-            "id": "e5f1ca7fd6d3483e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "809ce5c9f11b497d",
+            "id": "855ba08e1ded49df",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,14 +54,21 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "dd06f073483eacd8",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 202.5110321044922,
-    "collapsed": true
+    "width": 202.5110321044922
   },
   "right": {
     "id": "fe177f0acf67a7c6",
@@ -135,33 +133,59 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "omnisearch:Omnisearch": false,
+      "dbfolder:Create a new database table": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-trim-whitespace:Trim whitespace": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-trim-whitespace:Trim whitespace": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "809ce5c9f11b497d",
+  "active": "855ba08e1ded49df",
   "lastOpenFiles": [
-    "org/task-backlog.md",
-    "templates/journal.md",
-    "periodic/journal/j-2023-12-22.md",
-    "Getting Started with Obsidian.md",
     "README.md~",
+    "meme-experiment/meme folder.md",
+    "Getting Started with Obsidian.md",
+    "meme-experiment/mission accomplished baby.md",
+    "meme-experiment/programmers 1960s vs now bonk dog.md",
+    "templates/meme.md",
+    "templates/journal.md",
+    "meme-experiment/not angry just upset dog.md",
+    "media/image/Pasted image 20231222202059.jpeg",
+    "README.md",
+    "media/image/Pasted image 20231222201358.jpeg",
+    "media/image/Pasted image 20231222201136.jpeg",
+    "Note.md",
+    "Untitled 1.md",
+    "Untitled 2.md",
+    "meme-experiment",
+    "meme/meme.md",
+    "meme/2023-12-22.md",
+    "meme/img-backgroundnote.md",
+    "media/image/whale_background-dark.jpeg",
+    "media/image/whale_background.jpeg",
+    "media/image/watercolorpnk.jpeg",
+    "media/image/sunsetpnk.jpeg",
+    "media/image/purple_forest.jpeg",
+    "media/image/orange_sun_fishboat_bg.jpeg",
+    "media/image/oil_canvas_field_bg.jpeg",
+    "meme",
+    "dbf.md",
+    "org/task-backlog.md",
+    "dbf",
+    "periodic/journal/j-2023-12-22.md",
     "writing/public",
     "writing/finished",
     "writing/personal",
@@ -171,18 +195,10 @@
     "b",
     "bak",
     "media/image",
-    "media/image/Getting Started with Obsidian-1703198611566.jpeg",
     "me-Day in a Sentence.md",
-    "Untitled.md",
     "periodic/journal/j-2023-05-31.md",
-    "README.md",
     "notes/reference/example reference.md",
     "notes/reference/Breadcrumbs, Juggl, and ExcaliBrain notes.md",
-    "test.md",
-    "graph/Getting Started with Obsidian.md",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "Untitled 3.md",
-    "note.md"
+    "test.md"
   ]
 }

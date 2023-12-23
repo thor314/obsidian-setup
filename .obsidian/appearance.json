@@ -3,5 +3,7 @@
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "mermaid"
-  ]
+  ],
+  "nativeMenus": false,
+  "baseFontSizeAction": true
 }

@@ -1,7 +1,7 @@
 {
   "deleteOption": ".trash",
   "logsModal": true,
-  "excludedFolders": "",
+  "excludedFolders": "meme",
   "ribbonIcon": false,
   "excludeSubfolders": false
 }

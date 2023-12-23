@@ -5,12 +5,36 @@
       "path": "Getting Started with Obsidian.md"
     },
     {
-      "basename": "task-backlog",
-      "path": "org/task-backlog.md"
+      "basename": "meme folder",
+      "path": "meme-experiment/meme folder.md"
+    },
+    {
+      "basename": "mission accomplished baby",
+      "path": "meme-experiment/mission accomplished baby.md"
+    },
+    {
+      "basename": "programmers 1960s vs now bonk dog",
+      "path": "meme-experiment/programmers 1960s vs now bonk dog.md"
+    },
+    {
+      "basename": "meme",
+      "path": "templates/meme.md"
     },
     {
       "basename": "journal",
       "path": "templates/journal.md"
+    },
+    {
+      "basename": "not angry just upset dog",
+      "path": "meme-experiment/not angry just upset dog.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "task-backlog",
+      "path": "org/task-backlog.md"
     }
   ],
   "omittedPaths": [
