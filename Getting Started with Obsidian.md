@@ -460,9 +460,10 @@ These plugins take longer to set up, but enable new Obsidian workflows. Each of 
     - 2023-12-22: Haven't used this much...but I think I might finally have a use case. I'm going to make meme folder with a tagging system. For vibe.
     - Update: we did it. Workflow:
         - See a meme. Screenshot it.
-        - Create a new note from the meme template (Ctrl-n); name it, and tag it with vibes and smash paste
+        - Create a new note from the meme template (Ctrl-n); name it, and tag it with vibes and smash paste.
         - Move it to the meme folder (Alt-r)
         - Open the meme database. Ctrl-hover over the files to see the goods.
+            - Could probably use quick-add to combine steps 2 and 3. Left as an exercise for the reader, or me in like 6 months
 - [Dataview](obsidian://show-plugin?id=dataview) - A JavaScript API and SQL-like query language for filtering, sorting, and extracting data from your vault. May heavily influence how you use notes' YAML metadata. Suggested use case: you've used Obsidian for a while, and want to analyze metadata about your vault. If you're using this, you may also want to look at [MetaEdit](obsidian://show-plugin?id=metaedit), for managing note metadata. Some other plugins require Dataview: eg. DB Folder, a lightweight wrapper around Dataview, and ExcaliBrain, an alternate graph view.
 - [Linter](obsidian://show-plugin?id=obsidian-linter) - Highly flexible tool for correcting common formatting issues. The tool is very conservative by default, but has many options to enable, as well as an option to define custom rules.
 - [QuickAdd](obsidian://show-plugin?id=quickadd) - A way to add content to the vault from pop-up prompts; can be fiddly to set up. QA comes with 4 modes, of which I use 3. I've set up a few QuickAdd macros for reference.
@@ -472,7 +473,7 @@ These plugins take longer to set up, but enable new Obsidian workflows. Each of 
     - [Multi-choice](https://github.com/chhoumann/quickadd/blob/master/docs/Choices/MultiChoice.md) - if you write many QA's, but don't want to bind them each to a key, but instead choose from a dropdown menu of QA's, multichoice allows you to organize them into a list.
 
 ### Graph Tools
-There are many community plugins that you might be interested in for your knowledge base workflow. I tried each of these, found them all more bother than they're worth, but I've included the ones that were at least fun to play with. The only one I much recommend is Find Orphaned Files.
+I haven't discovered any plugins that make graph management much easier. I tried each of these, found them all more bother than they're worth, but I've included the ones that were at least fun to play with. The only one I much recommend is Find Orphaned Files.
 
 - [Find Orphaned Files](obsidian://show-plugin?id=find-unlinked-files) - Utility to find unlinked files. Particularly useful if your graph is large.
 - [Graph Analysis](obsidian://show-plugin?id=graph-analysis) - Get statistics about the closeness of any two notes, and some other neat graph math.
@@ -494,27 +495,27 @@ These plugins are nice to have, and improve the experience of writing $\LaTeX$:
     - auto-enlarge brackets that would be too small
     - some [custom shorthands](https://github.com/joeyuping/quick_latex_obsidian#enhanced11-custom-shorthand)
 - [Extended MathJax](obsidian://show-plugin?id=obsidian-latex) - adds a global preamble file, `preamble.sty`, for defining latex `newcommand`s. Also adds `mchem` and `bussproofs` packages.
-- [Copy as Latex](obsidian://show-plugin?id=copy-as-latex) - Copy markdown as LaTeX. Very useful if you move between the two formats. Overlaps Pandoc, but with the feature export selections as opposed to whole files.
 - [Obsidian Pandoc](obsidian://show-plugin?id=obsidian-pandoc) (repeated from general low setup) - Tool to export notes to other formats: pdf, html, ePub, docx, Latex, etc. Requires that you have `pandoc` and `pdflatex` CLI tools, which you should be able to install with your package manager of choice.
 - [TikZJax](obsidian://show-plugin?id=obsidian-tikzjax): Enable MathJax support for working with TikZ diagrams. If you work with cryptography, take a look at [this library of diagrams](https://www.iacr.org/authors/tikz/).
 
-Less recommended, as I believe they are overshadowed:
+Other LaTeX related plugins I've tried that weren't worth recommending:
+- [Copy as Latex](obsidian://show-plugin?id=copy-as-latex) - Copy markdown as LaTeX. Maybe useful if you move between the two formats. Overlaps Pandoc, but with the feature export only a selection, as opposed to whole files.
 - [Latex Suite](obsidian://show-plugin?id=obsidian-latex-suite) - Snippets for latex. I prefer Completr's interface for completions, and this command duplicates some of Quick Latex's snippets.
 - [Latex Environments](obsidian://show-plugin?id=obsidian-latex-environments) - Completr does this, but with a better drop-down menu.
 
 ### Journaling Plugins
-- [Periodic Notes](obsidian://show-plugin?id=periodic-notes) - Good for regular journaling, with good integration with Templates and Templater. I recommend keeping a top-level directory for periodic notes.
+- [Periodic Notes](obsidian://show-plugin?id=periodic-notes) - The main plugin.
 - [Rollover Daily Todos](obsidian://show-plugin?id=obsidian-rollover-daily-todos) - Quality of life tool for a lightweight todo workflow in your daily note. Make checkboxes in your journal file in the checkbox area, this plugin automatically rolls unfinished todos over to tomorrow's journal.
-- [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin) or [Todoist Sync](obsidian://show-plugin?id=todoist-sync-plugin)  are both fine. Todoist can send mobile notifications, which is the only difference to me.
 
 ### Misc
 I make occasional use of [Zotero Integration](obsidian://show-plugin?id=obsidian-zotero-desktop-connector), an integration for my Zotero vault. Zotero I mainly use to read pdfs of papers and books. Citations allows me to import my highlights and generate citations.
 
 ### Plugins I should mention but don't use
-A quick run through some of the more popular plugins (>50k downloads) that I don't use. I also include several plugins that I've tried that didn't work out. The disqualifying factor for many of these is that I rarely want dynamic content in markdown editor.
+A quick run through some of the more popular plugins (>50k downloads) that I don't use. I also include several plugins that I've tried that didn't work out. The disqualifying factor for many of these is that I rarely want dynamic content in a markdown editor.
 
 - [Workspaces Plus](obsidian://show-plugin?id=workspaces-plus) - enhances the default Workspaces plugin with useful UI elements and hotkeys. Workspaces don't feel like they fill a need for me.
 - [TagFolder](obsidian://show-plugin?id=obsidian-tagfolder) similar to Tags View, with a slightly different interface. The one unique feature I see is actually to display all (back)links in the same way as tags in Tags View are displayed, but this isn't a killer feature for me. Also doesn't play nice with Tag Wrangler.
+- Google Tasks or [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin) or [Todoist Sync](obsidian://show-plugin?id=todoist-sync-plugin): prefer to do task scheduling in the normal app.
 - [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) has a similar idea to Smarter Markdown Hotkeys, but stops way short.
 - Kanban - I don't like Kanban boards. You may get some mileage out of this if you use Obsidian for a task manager, but I'm biased against Obsidian for anything but lightweight task-management.
 - Calendar - Some people like UI candy like this, I regard it as clutter.

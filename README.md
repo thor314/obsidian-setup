@@ -1,12 +1,15 @@
-# README
-This is a template vault that you may like to borrow inspiration from as you set up your own vault. 
+# Thor's Obsidian Vault
+This vault aims to be two things:
+- the best possible resource you will find anywhere on using and setting up Obsidian (parts 1 and 2)
+- an evolving document of my personal experiments with plugins and workflows (parts 2 and 3)
 
 The [Getting Started configuration guide](https://github.com/thor314/obsidian-setup/blob/main/Getting%20Started%20with%20Obsidian.md) gives instructions for:
-- getting started with Obsidian, and a couple useful settings
+- getting started with Obsidian, some guidance on setting up a vault, and highlights couple useful settings
 - getting going with a couple different workflows
 - an opinionated take on about 100 plugins and how to use them for your workflows
 
 The post is aimed at a wide audience; if you use Obsidian or would like to, this post aims help you make the most of it.
+
 In particular, I discuss how to use Obsidian for:
 - journaling
 - note taking
@@ -26,20 +29,16 @@ newer plugins with fewer installs.
 
 ### Changelog
 Roughly bi-annual updates to this vault since end of 2022.
-- 2023-12-22 - tweet got some attention so did one more light editing pass and cleaned up vimrc + preamble.sty. Then cleaned up part 3. Added the meme-folder workflow.
-- 2023-12-21 - rewrote a good portion of parts 1 and 2, reduced cruft, made workflow descriptions clearer, update vimrc
+- 2023-12-22 - tweet got some attention so did one more light editing pass, cleaned preamble.sty. Worked through part 3. Synced keybinds with my main vault. Added the meme-folder workflow. 
+- 2023-12-21 - rewrote a good portion of parts 1 and 2, made workflow descriptions clearer, update vimrc
 - 2023-05-31 - how was I this bad at writing...added a few plugins, gcal, hotkey helper, latex preamble
 - 2022-11-17 - first draft finished
 
 ### Todo: 
-- future: didn't touch the part 3 sections from graph tools and onwards
-- future: eventually figuring out how to use Dataview better
-
-amend the sections on these plugins:
+eventually get around to giving these plugins another shot:
 - projects
-- dataview 
+- dataview
 - linter
 - leader hotkeys
-- extended mathjax
-- quick latex 
 - Math booster?
+

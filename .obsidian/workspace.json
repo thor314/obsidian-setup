@@ -11,8 +11,12 @@
             "id": "7ed9204169114a91",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Getting Started with Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -80,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Getting Started with Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Getting Started with Obsidian.md"
+              }
             }
           }
         ],
@@ -149,8 +156,8 @@
   },
   "active": "7ed9204169114a91",
   "lastOpenFiles": [
-    "meme-experiment/meme folder.md",
     "README.md~",
+    "meme-experiment/meme folder.md",
     "meme-experiment/mission accomplished baby.md",
     "meme-experiment/not angry just upset dog.md",
     "meme-experiment/programmers 1960s vs now bonk dog.md",

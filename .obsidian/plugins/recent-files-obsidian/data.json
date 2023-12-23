@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Getting Started with Obsidian",
+      "path": "Getting Started with Obsidian.md"
+    },
+    {
       "basename": "meme folder",
       "path": "meme-experiment/meme folder.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "meme",
       "path": "templates/meme.md"
-    },
-    {
-      "basename": "Getting Started with Obsidian",
-      "path": "Getting Started with Obsidian.md"
     },
     {
       "basename": "README",
