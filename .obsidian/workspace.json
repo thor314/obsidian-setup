@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "078fb41b889417f9",
+        "id": "6b0f8efd3f65ae8f",
         "type": "tabs",
         "children": [
           {
-            "id": "855ba08e1ded49df",
+            "id": "da9936ea1df1b2b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -133,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -153,18 +153,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "855ba08e1ded49df",
+  "active": "d66c0adf1ee7a0c8",
   "lastOpenFiles": [
-    "README.md~",
-    "meme-experiment/meme folder.md",
     "Getting Started with Obsidian.md",
+    "README.md",
+    "meme-experiment/meme folder.md",
     "meme-experiment/mission accomplished baby.md",
+    "meme-experiment/not angry just upset dog.md",
     "meme-experiment/programmers 1960s vs now bonk dog.md",
+    "README.md~",
     "templates/meme.md",
     "templates/journal.md",
-    "meme-experiment/not angry just upset dog.md",
     "media/image/Pasted image 20231222202059.jpeg",
-    "README.md",
     "media/image/Pasted image 20231222201358.jpeg",
     "media/image/Pasted image 20231222201136.jpeg",
     "Note.md",

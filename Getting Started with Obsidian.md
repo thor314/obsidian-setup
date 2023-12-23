@@ -54,7 +54,7 @@ Take a couple minutes to play around with the basic Markdown document. See the [
 
 Make a new file, and play with the buttons on the sidebars. I've made some modifications to the defaults, only a few of these come as default. Some very useful hotkeys are:
 - **Ctrl-P** bringing up the command palette
-- **f1** or **Ctrl-,** for settings
+- **Ctrl-,** for settings
 - **Ctrl-N** to create a note from a template
 - **Alt-O** to open a new file (rebound from Ctrl-o to Alt-o, so that I can use vim Ctrl-o/i)
 - **f2** to rename a note
@@ -164,7 +164,7 @@ You may prefer to read this section in the browser so that you may follow along 
     - The native fonts are fine. I like custom fonts. I use [Fira Code](https://github.com/tonsky/FiraCode) for a monospace font, and I lately like [Cantarell](https://fonts.google.com/specimen/Cantarell), [Karla](https://fonts.google.com/specimen/Karla) and [Atkinson](https://brailleinstitute.org/freefont) for system and text fonts. If you want to font-dive, check out [nerdfonts](https://www.nerdfonts.com/). You may have to reload before Obsidian recognizes your fonts.[^1]
         - *jump to the end of this footnote by moving the cursor over the footnote and pressing Alt-f. Then press Alt-f again to jump back.*
     - If you ever want to make one-off tweaks to your Obsidian display, you can add your own CSS snippets at `.obsidian/snippets/your_snippet.css`. This vault comes with short two examples.
-- **Hotkeys** - This vault is my template vault for setting up new vaults. The keybindings in this vault are my preferred defaults; Your Mileage May Vary. I install [Smarter Markdown Hotkeys](obsidian://show-plugin?id=obsidian-smarter-md-hotkeys) and [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) to upgrade a few editing keybinds.
+- **Hotkeys** - This vault is my template vault for setting up new vaults. The keybindings in this vault are my preferred defaults; Your Mileage May Vary. I install [Smarter Markdown Hotkeys](obsidian://show-plugin?id=obsidian-smarter-md-hotkeys) to upgrade a few editing keybinds.
 
 #### Core Plugins
   We'll run through the plugins Obsidian ships with. Some are good, others are outclassed by existing community plugins.
@@ -412,7 +412,7 @@ First up, a handful of plugins that dramatically improve Obsidian.
 - [Templater](obsidian://show-plugin?id=templater-obsidian) - More powerful tools for templating files and creating files from templates than the default Template plugin offers. If you're comfortable writing JS scripts, you may embed [your own scripts](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html) within templates. [Docs](https://silentvoid13.github.io/Templater/). The tool has an active [discussion forum](https://github.com/SilentVoid13/Templater/discussions). See the templates directory for some templater examples.[^3] I prefer to avoid the Folder Templates feature, which can cause unexpected behavior when I wanted one template but got another.
 - [Hotkeys for Specific Files](obsidian://show-plugin?id=obsidian-hotkeys-for-specific-files) - For your notes that you intend to regularly revisit, it may be worth binding hotkeys to them. I prefer this over starring notes. I bind keys for templates that I edit frequently (periodic note templates), personal-organization hub notes, and personal reference notes.
 - The `Minimal Theme` in Appearance settings, and [Minimal Theme Settings](obsidian://show-plugin?id=obsidian-minimal-settings) - Make Obsidian look good. A couple things I like: headers of different colors, and disabling image maximization. I liked focus mode but the UI for moving the mouse over the header is annoying.
-- [Smarter Markdown Hotkeys](obsidian://show-plugin?id=obsidian-smarter-md-hotkeys) - Hotkeys to replace many toggle commands in Obsidian. Smarter Markdown Hotkeys assumes that if your cursor is on a word or part of a word, you mean to bold/italic/whatever the whole word, not put asterisks in the mi\*\*\*\*dle of the word like this. I bind many of these, replacing defaults where possible. [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) has a similar idea and covers the few things Smarter Markdown Hotkeys misses.
+- [Smarter Markdown Hotkeys](obsidian://show-plugin?id=obsidian-smarter-md-hotkeys) - Hotkeys to replace many toggle commands in Obsidian. Smarter Markdown Hotkeys assumes that if your cursor is on a word or part of a word, you mean to bold/italic/whatever the whole word, not put asterisks in the mi\*\*\*\*dle of the word like this. I bind many of these, replacing defaults where possible.
 - [Advanced Tables](obsidian://show-plugin?id=obsidian-advanced-new-file) - Must have, makes working with Markdown tables easier by providing commands for working with tables, and binding tab/enter to table movement. Requires basically no setup.
     - If you really want to work with markdown tables instead of just using a spreadsheet, see [Table Editor](https://github.com/ganesshkumar/obsidian-table-editor) for another tool for editing markdown tables and csv's, and [Table Extended](https://github.com/aidenlx/table-extended) if you want a MultiMarkdown extended syntax for formatting markdown tables.
 - [Vimrc Support](obsidian://show-plugin?id=obsidian-vimrc-support) - If you use Vim mode, you probably want this. See the `.obsidian.vimrc` file for a sample setup, and the [home page](https://github.com/esm7/obsidian-vimrc-support) for info. You'll probably want to enable yank-to-system-clipboard and a couple other things. If you use vim in Obsidian, you can't actually copy text without unbinding Ctrl-C, or using vim yank-to-system-keyboard.
@@ -429,7 +429,6 @@ These plugins tend to introduce minor UX improvements or generally helpful featu
 - [Filename Heading Sync](obsidian://show-plugin?id=obsidian-filename-heading-sync) - H1 headers should usually match filenames. This plugin automates that. Worth disabling for templates in the templates folder, which may have template syntax in their H1.
 - [Footnote Shortcut](obsidian://show-plugin?id=obsidian-footnotes) - 1 new hotkey for creating, jumping to, and jumping back from footnotes, which I bind to Alt-F. I tried [Better Footnote](obsidian://show-plugin?id=better-fn), but found its model of footnotes less convenient. I also like [Tidy Footnotes](obsidian://show-plugin?id=obsidian-tidy-footnotes), which re-orders misordered footnotes.
 - [Hider](obsidian://show-plugin?id=obsidian-hider) - Hide UI elements you don't like. I hide the left side app ribbon (don't do this unless you're totally comfortable with the keyboard commands!) and the scrollbar. I also hide tabs. I don't like tabs, and would disable them entirely if I could.
-- [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) - Some overlap with vim mode. I mainly use this to toggle to-do lists and blockquotes. The default keybinds are fine.
 - [Keyboard Analyzer](obsidian://show-plugin?id=keyboard-analyzer) - Can show you a modal of which hotkeys you've bound where with `Open Keyboard Shortcuts View`. This is very useful if you bind many keys, or want to see what keys are unbound.
 - [LanguageTool Tracker](obsidian://show-plugin?id=obsidian-languagetool-plugin) - Integration with the [LanguageTool](https://languagetool.org/) grammar checker, nice extension for avoiding dumb grammar issues. I prefer this over the default spellchecker, as LanguageTool checks for spelling errors and grammar issues. LanguageTool has a free mode and a premium mode, the free mode is already reasonably decent. There's also a browser extension for LanguageTool, if you're into that.
 - [MetaEdit](obsidian://show-plugin?id=metaedit) - A hotkey to edit metadata, with a customizable modal window. Useful for occasionally creating metadata fields. The [Metadata Menu](obsidian://show-plugin?id=metadata-menu) plugin is another powerful plugin for interacting with metadata along with Dataview, though I haven't needed a more powerful tool, so I haven't reached for it.
@@ -450,6 +449,7 @@ These plugins tend to introduce minor UX improvements or generally helpful featu
 Plugins that you may need to read documentation/settings for at least 10 minutes. I also recommend each of these, as they tend to straddle the boundary of *easy to setup and use*, and pretty useful.
 - [Obsidian Git](obsidian://show-plugin?id=obsidian-git) - Back up your personal vault to a remote git repository every N minutes. I've stopped using this in favor of the premium Sync, but it is well done. It may not work with sandboxed Obsidian clients, and I'm not sure how you'd set it up for mobile.
 - [Text Generator](obsidian://show-plugin?id=obsidian-textgenerator-plugin) - plugin to query OpenAI text generation API's. You'll need your own API key.
+- [Hover Editor](obsidian://show-plugin?id=obsidian-hover-editor) - preview and edit pages in an persistent pop-up. Also functions as a sort of second overlay of tabs. Has a tie-in with Hotkeys for Specific Files that I haven't used much. I'm borderline on whether this is actually useful.
 
 ### General high setup
 These plugins take longer to set up, but enable new Obsidian workflows. Each of these may take at least a half hour to set up and get acquainted with.
@@ -457,12 +457,12 @@ These plugins take longer to set up, but enable new Obsidian workflows. Each of 
 *2023-12-22: I wrote this section somewhat aspirational documentation for myself a year ago, at the end of 2022, so that I might use these more. There was an attempt, but I haven't actually used them much. They are powerful, and might be useful for you.*
 
 - [Database Folder](https://github.com/RafaelGB/obsidian-db-folder) - Create a database folder that tracks notes within a given folder, built around the Dataview plugin. Basically, a simplified version of the dataview plugin, with the specific use case of tracking the metadata inside particular folders. Maybe useful for creating reference list notes, or organization tasks like tracking notes on people, journal files, etc. To make best use, think about what metadata information you would want to see in the database folder about each note. Then template that information in your templates for that note type.
-    - 2023-12-22: Haven't used this much...but I think I might finally have a use case. I'm going to make meme folder with a tagging system. For vibe. 
-    - Update: we did it. Workflow: 
+    - 2023-12-22: Haven't used this much...but I think I might finally have a use case. I'm going to make meme folder with a tagging system. For vibe.
+    - Update: we did it. Workflow:
         - See a meme. Screenshot it.
-        - Create a new note from the meme template (Ctrl-n); name it, and tag it with vibes and smash paste 
+        - Create a new note from the meme template (Ctrl-n); name it, and tag it with vibes and smash paste
         - Move it to the meme folder (Alt-r)
-        - Open the meme database. Ctrl-hover over the files to see the goods. 
+        - Open the meme database. Ctrl-hover over the files to see the goods.
 - [Dataview](obsidian://show-plugin?id=dataview) - A JavaScript API and SQL-like query language for filtering, sorting, and extracting data from your vault. May heavily influence how you use notes' YAML metadata. Suggested use case: you've used Obsidian for a while, and want to analyze metadata about your vault. If you're using this, you may also want to look at [MetaEdit](obsidian://show-plugin?id=metaedit), for managing note metadata. Some other plugins require Dataview: eg. DB Folder, a lightweight wrapper around Dataview, and ExcaliBrain, an alternate graph view.
 - [Linter](obsidian://show-plugin?id=obsidian-linter) - Highly flexible tool for correcting common formatting issues. The tool is very conservative by default, but has many options to enable, as well as an option to define custom rules.
 - [QuickAdd](obsidian://show-plugin?id=quickadd) - A way to add content to the vault from pop-up prompts; can be fiddly to set up. QA comes with 4 modes, of which I use 3. I've set up a few QuickAdd macros for reference.
@@ -477,7 +477,6 @@ There are many community plugins that you might be interested in for your knowle
 - [Find Orphaned Files](obsidian://show-plugin?id=find-unlinked-files) - Utility to find unlinked files. Particularly useful if your graph is large.
 - [Graph Analysis](obsidian://show-plugin?id=graph-analysis) - Get statistics about the closeness of any two notes, and some other neat graph math.
 - [Breadcrumbs](obsidian://show-plugin?id=breadcrumbs) - Intended to allow you to set up structured relationships (parent, child, sibling) between notes, but the data isn't easily used or displayed.
-- [Hover Editor](obsidian://show-plugin?id=obsidian-hover-editor) - Open pages and images in an enhanced Page Preview view pop-up. Also functions as a sort of second overlay of tabs. A key feature is the Juggl integration, for hover-over views of notes in the Juggl alternate graph.
 - [Journey](obsidian://show-plugin?id=obsidian-journey-plugin) - Tools for finding paths between two notes in your knowledge base. Makes an unfortunate interface choice, the plugin should include a function, but only has a clicky button in the left bar.
 - [Juggl](obsidian://show-plugin?id=juggl) - An alternative to the Obsidian native graph view, integrating with Breadcrumbs for a structured view of note-relationships, and Hover for hover-over previews of nodes in the graph. Doesn't do well with vaults with more than 250 notes (which isn't many). [Docs](https://juggl.io/Juggl). An alternative to Juggl is ExcaliBrain.
 - [ExcaliBrain](obsidian://show-plugin?id=excalibrain) - An alternative to Breadcrumbs and Juggl for structured graph content, with a different UI. Requires DataView and Excalidraw to be installed as well.
@@ -516,6 +515,7 @@ A quick run through some of the more popular plugins (>50k downloads) that I don
 
 - [Workspaces Plus](obsidian://show-plugin?id=workspaces-plus) - enhances the default Workspaces plugin with useful UI elements and hotkeys. Workspaces don't feel like they fill a need for me.
 - [TagFolder](obsidian://show-plugin?id=obsidian-tagfolder) similar to Tags View, with a slightly different interface. The one unique feature I see is actually to display all (back)links in the same way as tags in Tags View are displayed, but this isn't a killer feature for me. Also doesn't play nice with Tag Wrangler.
+- [Hotkeys++](obsidian://show-plugin?id=hotkeysplus-obsidian) has a similar idea to Smarter Markdown Hotkeys, but stops way short.
 - Kanban - I don't like Kanban boards. You may get some mileage out of this if you use Obsidian for a task manager, but I'm biased against Obsidian for anything but lightweight task-management.
 - Calendar - Some people like UI candy like this, I regard it as clutter.
 - [Comments](obsidian://show-plugin?id=obsidian-comments) - Drop an inline comments overlay into a page, similar to Google Docs. Would be more useful if Obsidian Vaults were more shareable.

@@ -1,7 +1,9 @@
 {
+  "TrimOnSave": true,
   "AutoTrimDocument": true,
-  "AutoTrimTimeout": 60,
-  "SkipCodeBlocks": false,
+  "AutoTrimTimeout": 10,
+  "PreserveCodeBlocks": true,
+  "PreserveIndentedLists": true,
   "TrimTrailingSpaces": true,
   "TrimLeadingSpaces": false,
   "TrimMultipleSpaces": false,
@@ -10,5 +12,6 @@
   "TrimMultipleTabs": false,
   "TrimTrailingLines": true,
   "TrimLeadingLines": false,
-  "TrimMultipleLines": false
+  "TrimMultipleLines": true,
+  "SkipCodeBlocks": false
 }

@@ -5,8 +5,8 @@
       "file": "templates/journal.md"
     },
     {
-      "useMoment": true,
-      "file": "t\\e\\s\\t-YY-MM-DD.md"
+      "useMoment": false,
+      "file": ""
     }
   ],
   "useExistingPane": true,

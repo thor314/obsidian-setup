@@ -27,7 +27,6 @@
   "obsidian-footnotes",
   "obsidian-hider",
   "obsidian-hotkeys-for-specific-files",
-  "hotkeysplus-obsidian",
   "keyboard-analyzer",
   "obsidian-languagetool-plugin",
   "quickadd",
@@ -39,5 +38,6 @@
   "metaedit",
   "quick-latex",
   "dbfolder",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-hover-editor"
 ]
