@@ -318,7 +318,16 @@ Besides the general task backlog, I also keep a file for each of my active proje
 - Blogging and writing educational content
 - I'd like to have more friends in my new city and I made it a project
 
-These are pretty different projects, but their usage is basically the same. When I create a new project, I bind it to a hotkey, usually Ctrl+Alt+{1-9}, work through my template about how I'm thinking about the project. I start from a template that looks something like:
+In my ideal-world work day, I wake up, stretch, know exactly what I need to do, and sit down to do 6 hours of deep work on exactly that, with very little overhead for project management.
+
+What follows is my current system for Very Little Overhead, which is really just a markdown file for:
+- evaluating whether a project is actually worth doing
+- setting intentions and expectations for balancing my time between my various projects
+- breaking down the project into sub-projects and manageable tasks
+- logging progress toward the project goals
+- recording context and thoughts, attempting to reduce the friction of context switching
+
+When I evaluate a new project, I start with the following template:
 ```
 ---
 creation-date: <% tp.file.creation_date("YYYY-MM-DD") %>
@@ -338,13 +347,16 @@ estimated end date:
 # Log
 ```
 
-Context switching pours concrete on my brain, so I try to only handle a few projects on any given day or week. I often set one dedicated day aside per week to throw at all the small tasks.
+If I intend to start a project, I bind it to a hotkey like Ctrl+Alt+{1-9}. Typically, at the start of a work day, I copy any relevant tasks for the day into my journal task area. At the end of the day, I log whatever progress I make in a date h2, eg. `## 2023-12-21`.
 
-Typically on any given work day, I have one or at most two projects that I want to make progress on. At the start of the day, I copy any relevant tasks for the day into my journal task area. At the end of the day, log whatever progress I make in a date h2, eg. `## 2023-12-21`.
+Context switching pours concrete on my brain, so I try to do that as little as possible. The workflow I've settled on lately involves roughly 1-2 day sprints toward the project goal. I often take a down day (ideally wednesday or a weekend day) between sprints to handle the backlog of crap that wolud be too distracting to handle on a deep work day.
 
-That's pretty much it. I don't much automate anything. It's not high-tech, and it works great, until I need to schedule a task for the future. I find that Obsidian is a great markdown application and a just okay todo app; for scheduling tasks into the future, I prefer to use an actual todo app.
+That's pretty much it. I don't much automate anything. It's not high-tech, doesn't have a productivity guru promoting it AFAIK, and it's worked great since I started with it.
 
-In the past I tried using e.g. the [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin) plugin for scheduling tasks and creating recurring tasks. I find that Obsidian's mobile experience doesn't hold up, so I tried out Todoist and Google Tasks. Both of these have Obsidian plugins, but I just use the Google tasks dedicated front-end. I like that Google Tasks integrates well with Google Calendar, and the Pixel android phone makes it easy create tasks, so I just stuck with the Google suite for anything scheduling-related.
+#### Aside: scheduling tasks and todo apps
+This workflow won't help if you need to schedule deadlines into the future, or recurring tasks. For my personal projects, deadlines are pretty much made made-up anyways and not helpful. I do like to schedule reminders, just not with Obsidian. I find that Obsidian is a great markdown application and a just okay todo app; for scheduling tasks into the future, I prefer to use an actual todo app.
+
+In the past I tried using e.g. the [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin) plugin for scheduling tasks and creating recurring tasks. I find that Obsidian's mobile experience doesn't hold up, so I tried out Todoist and Google Tasks. Both of these have Obsidian plugins, but I just use the Google tasks dedicated front-end now. I like that Google Tasks integrates well with Google Calendar, and the Pixel android phone makes it easy create tasks, so I just stuck with the Google suite for anything scheduling-related.
 
 In the same vein, I've also tried out calendar integrations for Obsidian, though I felt they were more clutter than useful.
 
