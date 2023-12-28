@@ -36,6 +36,12 @@ Roughly bi-annual updates to this vault since end of 2022.
 - 2022-11-17 - first draft finished
 
 ### Todo: 
+- meme folder-db aside out of part 3 into own section in part 2
+- investigate text-generator and other possible AI workflows, haven't found much use for these yet
+  - quickadd added an option for AI workflows also
+- I haven't looked at the most popular plugins in awhile
+- I natter a lot about not using/liking dynamic or web-api based content, I could add an aside about that in part one
+
 eventually get around to giving these plugins another shot:
 - projects
 - dataview
