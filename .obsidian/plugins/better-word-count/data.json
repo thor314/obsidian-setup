@@ -29,6 +29,6 @@
   ],
   "countComments": false,
   "collectStats": true,
-  "displaySectionCounts": true,
+  "displaySectionCounts": false,
   "pageWords": 300
 }

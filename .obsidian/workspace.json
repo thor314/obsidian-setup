@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,7 +155,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "21ac573b8ab2343b",
+  "active": "a8b6b0290e33b02c",
   "lastOpenFiles": [
     "Getting Started with Obsidian.md",
     "README.md~",
