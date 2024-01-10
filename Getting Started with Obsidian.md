@@ -91,7 +91,7 @@ Tags can also be nested:
 
 Try creating a couple notes (Ctrl-N), add some tags, and open the tags pane (Ctrl-P show tags). Also take a look at the directory structure (Ctrl-P show files; or for a different interface, Ctrl-P file tree reveal active file).
 
-Tag structure is more dynamic and flexible than directory structure. When thinking about how to organize your files, consider using directories to separate notes with entirely different intents. For example, keep a directory for each of journal, notes, and self-organization to keep them separate; but, use tags to organize your notes within these directories.
+Tag structure is more dynamic and flexible than directory structure. When thinking about how to organize your files, consider using directories to separate notes with entirely different intents. For example, keep a directory for each of journal, notes, and self-organization to keep them separate; but, use tags to organize your notes within these directories. If you intend to use Obsidian on mobile, you might consider keeping some notes in a special mobile folder, so that those notes easier to find.
 
 You can also use YAML front-matter to set tags and other metadata for your files, which is particularly useful when combined with templating and creating databases of your notes with the popular [Dataview](obsidian://show-plugin?id=dataview) plugin. Dataview is powerful, complex, and not worth diving into right now; I only mention it now as food for thought on how you might consider using your note metadata.
 ```
@@ -458,7 +458,7 @@ These plugins tend to introduce minor UX improvements or generally helpful featu
 - [Show Current File Path](obsidian://show-plugin?id=obsidian-show-file-path) - Show the file path in the bottom ribbon in an unobtrusive way.
 - [Tag Wrangler](obsidian://show-plugin?id=tag-wrangler) - Right click on a tag in the tabs pane to rename, search, and merge tags.
 - [Tidy Footnotes](obsidian://show-plugin?id=obsidian-tidy-footnotes) - A command to reorder your footnotes, if they are out of order.
-- [Trim Whitespace](obsidian://show-plugin?id=obsidian-trim-whitespace) - Automatically trim unused whitespace. A common feature in IDEs, nice to have it here as well, especially if you version control with git.
+- [Trim Whitespace](obsidian://show-plugin?id=obsidian-trim-whitespace) - Automatically trim unused whitespace. A common feature in IDEs, nice to have if you version control with git. However, Trim Whitespace does **not play nice with the premium Obsidian Sync plugin**, and can be the source of annoying merge conflicts between different machines.
 
 ### General medium setup
 Plugins that you may need to read documentation/settings for at least 10 minutes. I also recommend each of these, as they tend to straddle the boundary of *easy to setup and use*, and pretty useful.
