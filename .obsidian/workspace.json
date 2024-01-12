@@ -143,16 +143,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "omnisearch:Omnisearch": false,
-      "dbfolder:Create a new database table": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "obsidian-trim-whitespace:Trim whitespace": false,
-      "periodic-notes:Open today": false
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "periodic-notes:Open today": false,
+      "omnisearch:Omnisearch": false,
+      "dbfolder:Create a new database table": false
     }
   },
   "active": "a8b6b0290e33b02c",
