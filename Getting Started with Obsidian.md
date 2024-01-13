@@ -420,7 +420,7 @@ Use the following links to jump ahead if you'd like.
 - [[#Knowledge Basing Plugins|Knowledge Basing Plugins]]
 - [[#Journaling Plugins|Journaling Plugins]]
 - [[#Plugins I should mention but don't use|Plugins I should mention but don't use]]
-
+ 
 ### Look at these plugins first:
 First up, a handful of plugins that dramatically improve Obsidian.
 - [Templater](obsidian://show-plugin?id=templater-obsidian) - More powerful tools for templating files and creating files from templates than the default Template plugin offers. If you're comfortable writing JS scripts, you may embed [your own scripts](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html) within templates. [Docs](https://silentvoid13.github.io/Templater/). The tool has an active [discussion forum](https://github.com/SilentVoid13/Templater/discussions). See the templates directory for some templater examples.[^3] I prefer to avoid the Folder Templates feature, which can cause unexpected behavior when I wanted one template but got another.
