@@ -633,5 +633,5 @@ matches:
 [^3]:  How to choose between creating a QA Capture, QA Template, QA Macro, and `Templater: Create new note from template` :
 - Templater create new note from template: Least setup, just write the template. Create a new note from a template, filed at the top level directory. You will have to manually move the file to it's correct location (I bind this to `Alt R`.)
 - QA Template: Some setup and testing. Create a new note from a given template, either in a given directory (less useful) or with a dynamic directory selection (more useful). Allows the user to set a file naming convention.
-- QA Capture: As much setup as QA Template. Besides adding new content to other notes, QA capture can also be used to create notes from templates. QA Capture does not have dynamic directory selection, but is as useful as QA template if you already know where the file needs to be created.
+- QA Macro: potentially very fiddly. Combine other commands together. Works best with other QA commands, as you can reuse entry values, eg. {{VALUE:filename}}, across commands. See the QA setup for an examlpe macro in this vault.
 - QA Macro: potentially very fiddly. Combine other commands together. Works best with other QA commands, as you can reuse entry values, eg. {{VALUE:filename}}, across commands. See the QA setup for an examlpe macro in this vault.
