@@ -1,4 +1,6 @@
 # Thor's Obsidian Vault
+![](https://img.shields.io/badge/made_by_cryptograthor-black?style=flat&logo=undertale&logoColor=hotpink)
+
 This vault aims to be two things:
 - the best possible resource you will find anywhere on using and setting up Obsidian (parts 1 and 2)
 - an evolving document of my personal experiments with plugins and workflows (parts 2 and 3)
