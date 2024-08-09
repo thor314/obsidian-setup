@@ -32,6 +32,7 @@ newer plugins with fewer installs.
 
 ### Changelog
 Roughly bi-annual updates to this vault since end of 2022.
+- 2024-08-09 - added a short section with a few recommended hotkeys
 - 2023-12-22 - tweet got some attention so did one more light editing pass, cleaned preamble.sty. Worked through part 3. Synced keybinds with my main vault. Added the meme-folder workflow. 
 - 2023-12-21 - rewrote a good portion of parts 1 and 2, made workflow descriptions clearer, update vimrc
 - 2023-05-31 - how was I this bad at writing...added a few plugins, gcal, hotkey helper, latex preamble

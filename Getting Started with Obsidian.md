@@ -199,6 +199,31 @@ You may prefer to read this section in the browser so that you may follow along 
 - **Workspaces** - I don't use this, but workspaces can be used to open a specific set of pages. Maybe useful for systemically returning to a set of notes. [Workspaces Plus](obsidian://show-plugin?id=workspaces-plus) enhances the workspace workflow.
 - **Community Plugins**: See [[#Part Three All the plugins]].
 
+#### Interlude: hotkeys
+For those who would like to configure hotkeys now, here are some hotkeys I use all the time that I recommend, in roughly descending order of relevance. With just the core plugins:
+- A-, A. navigate back/forward
+- F3 F4 toggle left/right sidebar
+- A-H A-h fold less/more 
+- A-r move file to another folder
+- C-{1..=4} focus left/right/up/down
+- C-m cycle bullet/checkbox
+- C-\ C-| Split down/right
+- C-r search replace
+- C-A-r reload app 
+- C-G graph view - mostly just eye candy 
+
+Hotkeys involving recommended community plugins:
+- C-n Templater create new note from template
+- A-{1..} Hotkeys for specific files - common files
+- F{8..12} journal, week review, ..., year review; also bind S-F8 prev, A-F8 next, C-F8 edit template (requires Periodic Notes) 
+- C-A-l LanguageTool Check text, C-A-L langtool clear suggestions, A-l langtool next suggestion
+- C-f C-A-f Omnisearch in file search / vault search
+- A-o Quick Switcher++ open standard mode (powered up open file)
+- C-R Rollover Daily Todos: Rollover Todos Now
+- A-f Footnote shortcut insert/navigate auto numbered footnote
+- A-F Tidy footnotes 
+- F7 Linter check file (2024-08-09 experimental)
+
 ## Part Two: Workflows
 Next up, we'll walk through some workflows of how to use Obsidian for:
 - journaling and personal review
