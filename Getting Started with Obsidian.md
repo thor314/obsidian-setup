@@ -222,7 +222,6 @@ Hotkeys involving recommended community plugins:
 - C-R Rollover Daily Todos: Rollover Todos Now
 - A-f Footnote shortcut insert/navigate auto numbered footnote
 - A-F Tidy footnotes 
-- F7 Linter check file (2024-08-09 experimental)
 
 ## Part Two: Workflows
 Next up, we'll walk through some workflows of how to use Obsidian for:
@@ -507,7 +506,6 @@ These plugins take longer to set up, but enable new Obsidian workflows. Each of 
             - Could probably use quick-add to combine steps 2 and 3. Left as an exercise for the reader, or me in like 6 months
         - Update: Obsidian doesn't have a feature to copy images from the vault to the clipboard. [Copy Image context menu](obsidian://show-plugin?id=copy-url-in-preview) adds this feature. We're so back.
 - [Dataview](obsidian://show-plugin?id=dataview) - A JavaScript API and SQL-like query language for filtering, sorting, and extracting data from your vault. May heavily influence how you use notes' YAML metadata. Suggested use case: you've used Obsidian for a while, and want to analyze metadata about your vault. If you're using this, you may also want to look at [MetaEdit](obsidian://show-plugin?id=metaedit), for managing note metadata. Some other plugins require Dataview: eg. DB Folder, a lightweight wrapper around Dataview, and ExcaliBrain, an alternate graph view.
-- [Linter](obsidian://show-plugin?id=obsidian-linter) - Highly flexible tool for correcting common formatting issues. The tool is very conservative by default, but has many options to enable, as well as an option to define custom rules.
 - [QuickAdd](obsidian://show-plugin?id=quickadd) - A way to add content to the vault from pop-up prompts; can be fiddly to set up. QA comes with 4 modes, of which I use 3. I've set up a few QuickAdd macros for reference.
     - [Capture](https://github.com/chhoumann/quickadd/blob/master/docs/Choices/CaptureChoice.md) - Pop up a prompt to append some text to a file, creating it (from a template if you'd like) if the file doesn't exist. In this example repo, I've set up a pair of example captures to append entries and todos to your journal file. You may have to reload Obsidian before your Captures work. See the accepted template syntax [here](https://github.com/chhoumann/quickadd/blob/master/docs/FormatSyntax.md). You can include Templater replacements inside your QA Captures.
     - [Template](https://github.com/chhoumann/quickadd/blob/master/docs/Choices/TemplateChoice.md) - Create files from templates. Capture also allows you to create files from templates, but Template allows you to choose where the file will be created from a dynamic list of directories, which is often a very useful feature. This vault includes an example of using a QA template to create a new reference note in `note/reference` .
@@ -594,7 +592,8 @@ A quick run through some of the more popular plugins (>50k downloads) that I don
 - Highlightr - I don't read PDFs from Obsidian, but if I did, I might use this.
 - Folder Note and AdrianLx's Folder Note - I found the interface for each poorly setup and not actually clarifying for directory structure. These plugins also don't integrate well with File Tree. I would rather use a QuickAdd macro for setting up my reference notes.
 - Spaced Repetition - I do flashcard, but not with Obsidian.
-- Markdown prettier - Deprecated for Linter
+- Markdown prettier - Meh
+- Linter - I found this more specific than Markdown Prettier, but still not useful enough that I was regularly using it.
 - Pane Relief - More hotkeys for navigating tabs and panes. I haven't gotten around to trying it, looks good though. Same deal with Cycle Through Panes.
 - Cycle through Panes - see Pane Relief.
 - Projects - Has a lot of overlap with Database folder, which is effectively the same plugin with more features and a different name.
