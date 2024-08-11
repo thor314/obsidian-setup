@@ -28,7 +28,10 @@ On the other hand, Obsidian is *not* well suited for:
 - Website hosting: Notion has great website hosting options. For a \$200 per year premium, Obsidian Publish's website offering is okay, but not impressive. However, since you're working with Markdown, you may just copy your files into a static site generator, or otherwise, export them to whatever other format you may desire.
 
 ### Overview of this resource
-To acknowledge my own preferences, I am a mathematical software developer; I prefer keyboard interfaces to clicky ones. I started using Obsidian at the end of 2021, and now use Obsidian nearly every day, for:
+The author of this resource is a reformed Emacs user. This means that he prefers a keyboard-over-mouse philosophy, and mostly avoids dynamic content in his markdown. He observes many of the most popular Obsidian plugins introduce dynamic content UI buttons, dynamic code blocks, and other clicky features (e.g. Tasks, Excalidraw, Kanban, Calendar, Iconize, Mind Map) that he avoids. 
+
+This is evidence of most people will hold different preferences than his own! But still he has opinions, and those
+opinions are reflected in this guide. I started using Obsidian at the end of 2021, and now use Obsidian nearly every day, for:
 - journaling
 - note taking (often with $\LaTeX$)
 - project and light task management
@@ -36,7 +39,7 @@ To acknowledge my own preferences, I am a mathematical software developer; I pre
 - general writing
 - meme foldering
 
-I'll describe how you might use Obsidian for each of these in part 2. We'll go over Obsidian in three parts.
+But enough about author guy, more about Obsidian. This guide will describe how you might use Obsidian for each of these work flows in part 2. We'll go over Obsidian in three parts.
 
 In **Part One**, we'll address a few key ideas, settings, and plugins. Part One is intended to serve as a reasonable 15 minute introduction to setting up Obsidian, and to highlight some philosophy about how you might want to set up your vault.
 
